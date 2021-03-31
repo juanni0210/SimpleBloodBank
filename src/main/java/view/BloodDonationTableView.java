@@ -4,6 +4,7 @@ import entity.BloodDonation;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,7 +16,8 @@ import logic.LogicFactory;
 
 /**
  *
- * @author shado
+ * @author Juan Ni
+ * Finished on March 29, 2021
  */
 @WebServlet(name = "BloodDonationTable", urlPatterns = {"/BloodDonationTable"})
 public class BloodDonationTableView extends HttpServlet{

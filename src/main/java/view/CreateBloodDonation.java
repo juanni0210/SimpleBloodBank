@@ -15,7 +15,8 @@ import logic.LogicFactory;
 
 /**
  *
- * @author shado
+ * @author Juan Ni
+ * Finished on March 29, 2021
  */
 @WebServlet( name = "CreateBloodDonation", urlPatterns = { "/CreateBloodDonation" } )
 public class CreateBloodDonation extends HttpServlet{
@@ -137,6 +138,7 @@ public class CreateBloodDonation extends HttpServlet{
    
         try {
             BloodDonation bloodDonation = bloodDonationLogic.createEntity(request.getParameterMap());
+//            bloodDonation.setBloodBank();
             bloodDonationLogic.add(bloodDonation);
         } catch(Exception ex) {
             errorMessage = ex.getMessage();

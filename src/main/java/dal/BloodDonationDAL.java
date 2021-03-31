@@ -10,7 +10,8 @@ import java.util.Map;
 
 /**
  *
- * @author shado
+ * @author Juan Ni
+ * Finished on March 29, 2021
  */
 public class BloodDonationDAL extends GenericDAL<BloodDonation> {
 
