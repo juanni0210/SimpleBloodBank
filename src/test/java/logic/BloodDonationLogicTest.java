@@ -212,7 +212,7 @@ public class BloodDonationLogicTest {
         sampleMap.put(BloodDonationLogic.BANK_ID, new String[]{ "1"} );
         sampleMap.put(BloodDonationLogic.MILLILITERS, new String[]{ "1111"});
         sampleMap.put(BloodDonationLogic.BLOOD_GROUP, new String[]{ "A"});
-        sampleMap.put(BloodDonationLogic.RHESUS_FACTOR, new String[]{ "Negative"});
+        sampleMap.put(BloodDonationLogic.RHESUS_FACTOR, new String[]{ "-"});
         sampleMap.put(BloodDonationLogic.CREATED, new String[]{ "2021-04-02 12:00:00"});
 
         
@@ -240,13 +240,14 @@ public class BloodDonationLogicTest {
     final void testCreateEntity() {
         Map<String, String[]> sampleMap = new HashMap<>();
         sampleMap.put(BloodDonationLogic.ID, new String[]{Integer.toString(expectedEntity.getId())} );
-        sampleMap.put(BloodDonationLogic.BANK_ID, new String[]{Integer.toString(expectedEntity.getBloodBank().getId())} );
+        //sampleMap.put(BloodDonationLogic.BANK_ID, new String[]{Integer.toString(expectedEntity.getBloodBank().getId())} );
         sampleMap.put(BloodDonationLogic.MILLILITERS, new String[]{Integer.toString(expectedEntity.getMilliliters())});
         sampleMap.put(BloodDonationLogic.BLOOD_GROUP, new String[]{expectedEntity.getBloodGroup().getSymbol()});
         sampleMap.put(BloodDonationLogic.RHESUS_FACTOR, new String[]{expectedEntity.getRhd().getSymbol()});
         sampleMap.put(BloodDonationLogic.CREATED, new String[]{logic.convertDateToString(expectedEntity.getCreated())});
 
         BloodDonation returnedBloodDonation = logic.createEntity(sampleMap);
+        returnedBloodDonation.setBloodBank(expectedEntity.getBloodBank());
         
         assertBloodDonationEquals(expectedEntity, returnedBloodDonation);
     }
