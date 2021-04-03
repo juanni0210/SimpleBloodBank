@@ -1,5 +1,6 @@
 package view;
 
+import entity.BloodBank;
 import entity.BloodDonation;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import logic.BloodBankLogic;
 import logic.BloodDonationLogic;
 import logic.LogicFactory;
 
@@ -80,6 +82,8 @@ public class CreateBloodDonation extends HttpServlet{
                 out.println( "</font>" );
                 out.println( "</p>" );
             }
+            //clear the error message if when reload the page
+            errorMessage = "";
             out.println( "<pre>" );
             out.println( "Submitted keys and values:" );
             out.println( toStringMap( request.getParameterMap() ) );
@@ -135,14 +139,28 @@ public class CreateBloodDonation extends HttpServlet{
             throws ServletException, IOException {
         log( "POST" );
         BloodDonationLogic bloodDonationLogic = LogicFactory.getFor("BloodDonation");
+        BloodBankLogic bloodBankLogic = LogicFactory.getFor("BloodBank");
    
-        try {
-            BloodDonation bloodDonation = bloodDonationLogic.createEntity(request.getParameterMap());
-//            bloodDonation.setBloodBank();
-            bloodDonationLogic.add(bloodDonation);
-        } catch(Exception ex) {
-            errorMessage = ex.getMessage();
-        }
+       
+            //check whether bank id exists in the BloodBank table
+            int userInputBankID = Integer.parseInt(request.getParameter(BloodDonationLogic.BANK_ID));
+            
+            BloodBank test = bloodBankLogic.getWithId(userInputBankID);
+
+            if(bloodBankLogic.getWithId(userInputBankID) != null) {
+                try {
+                    BloodDonation bloodDonation = bloodDonationLogic.createEntity(request.getParameterMap());
+                    bloodDonation.setBloodBank(new BloodBank(userInputBankID));
+                    bloodDonationLogic.add(bloodDonation);
+                } catch(Exception ex) {
+                    errorMessage = ex.getMessage();
+                }
+            } else {
+                errorMessage = "Bank ID: " + userInputBankID + " does not exist in the BloodBank Table.";
+            }
+            
+            
+      
 
         if( request.getParameter("add") != null){
             //if add button is pressed return the same page

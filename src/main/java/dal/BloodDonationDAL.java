@@ -30,7 +30,7 @@ public class BloodDonationDAL extends GenericDAL<BloodDonation> {
     @Override
     public BloodDonation findById(int donationId) {
         Map<String, Object> map = new HashMap<>();
-        map.put("donation_id", donationId);
+        map.put("donationId", donationId);
         //first argument is a name given to a named query defined in appropriate entity
         //second argument is map used for parameter substitution.
         //parameters are names starting with : in named queries, :[name]
@@ -46,7 +46,7 @@ public class BloodDonationDAL extends GenericDAL<BloodDonation> {
     
     public List<BloodDonation> findByBloodGroup(BloodGroup bloodGroup) {
         Map<String, Object> map = new HashMap<>();
-        map.put("blood_group", bloodGroup);
+        map.put("bloodGroup", bloodGroup);
         return findResults("BloodDonation.findByBloodGroup", map);
     }
     
@@ -64,7 +64,7 @@ public class BloodDonationDAL extends GenericDAL<BloodDonation> {
     
     public List<BloodDonation> findByBloodBank(int bloodBank){
         Map<String, Object> map = new HashMap<>();
-        map.put("bank_id", bloodBank);
+        map.put("bloodBankId", bloodBank);
         return findResults("BloodDonation.findByBloodBank", map);
     }
 }

@@ -10,7 +10,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
-import java.util.function.Consumer;
 
 
 /**
@@ -75,19 +74,7 @@ public class BloodDonationLogic extends GenericLogic<BloodDonation, BloodDonatio
                 throw new ValidationException(ex);
             }
         }
-        
-        //before using the values in the map, make sure to do error checking.
-        //simple lambda to validate a string, this can also be place in another
-        //method to be shared amoung all logic classes.
-        Consumer validator = (value) -> {
-                String error = "";
-                if(value == null){
-                    error = value + " cannot be null!";
-                }
-                throw new ValidationException(error);
 
-        };
-        
         //extract the date from map first.
         //everything in the parameterMap is string so it must first be
         //converted to appropriate type. have in mind that values are
@@ -98,12 +85,7 @@ public class BloodDonationLogic extends GenericLogic<BloodDonation, BloodDonatio
         String rhd = parameterMap.get(RHESUS_FACTOR)[0];
         String created = parameterMap.get(CREATED)[0];
         created = created.replaceAll("T", " ");
-        //validate the data
-        validator.accept(milliliters);
-        validator.accept(bloodGroup);
-        validator.accept(rhd);
-        validator.accept(created);
-
+     
         //set values on entity
         entityBloodDonation.setMilliliters(Integer.parseInt(milliliters));
         entityBloodDonation.setBloodGroup(BloodGroup.getBloodGroup(bloodGroup));
@@ -125,12 +107,7 @@ public class BloodDonationLogic extends GenericLogic<BloodDonation, BloodDonatio
 
     @Override
     public List<?> extractDataAsList(BloodDonation e) {
-        if(e.getBloodBank().getId() != null) {
-             return Arrays.asList(e.getId(), e.getBloodBank().getId(), e.getMilliliters(), e.getBloodGroup(), e.getRhd(), e.getCreated());
-        } else {
-            return Arrays.asList(e.getId(), null, e.getMilliliters(), e.getBloodGroup(), e.getRhd(), e.getCreated());
-        }
-       
+        return Arrays.asList(e.getId(), e.getBloodBank().getId(), e.getMilliliters(), e.getBloodGroup(), e.getRhd(), e.getCreated());
     }
    
 }

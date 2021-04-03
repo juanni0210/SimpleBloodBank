@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: logic.BloodDonationLogicTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 6.017 s <<< FAILURE! - in logic.BloodDonationLogicTest
+logic.BloodDonationLogicTest.testCreateEntity  Time elapsed: 0.24 s  <<< ERROR!
+java.lang.NullPointerException
+	at logic.BloodDonationLogicTest.assertBloodDonationEquals(BloodDonationLogicTest.java:123)
+	at logic.BloodDonationLogicTest.testCreateEntity(BloodDonationLogicTest.java:251)
+
+logic.BloodDonationLogicTest.testCreateEntityAndAdd  Time elapsed: 0.075 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Negative> but was: <->
+	at logic.BloodDonationLogicTest.testCreateEntityAndAdd(BloodDonationLogicTest.java:233)
+
