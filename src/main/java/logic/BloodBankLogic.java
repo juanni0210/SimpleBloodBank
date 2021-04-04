@@ -111,7 +111,7 @@ public class BloodBankLogic extends GenericLogic<BloodBank, BloodBankDAL>{
 
     @Override
     public List<?> extractDataAsList(BloodBank e) {
-        return Arrays.asList( e.getId(), e.getOwner(), e.getName(), e.getPrivatelyOwned(), e.getEstablished(), e.getEmplyeeCount() );
+        return Arrays.asList( e.getId(), e.getOwner() == null ? "null" : e.getOwner().getId(), e.getName(), e.getPrivatelyOwned(), e.getEstablished(), e.getEmplyeeCount() );
     }
 
    

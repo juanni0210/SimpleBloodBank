@@ -10,11 +10,13 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Consumer;
 import javax.persistence.EntityManager;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -250,6 +252,58 @@ public class BloodDonationLogicTest {
         returnedBloodDonation.setBloodBank(expectedEntity.getBloodBank());
         
         assertBloodDonationEquals(expectedEntity, returnedBloodDonation);
+    }
+    
+       @Test
+    final void testCreateEntityNullAndEmptyValues() {
+        Map<String, String[]> sampleMap = new HashMap<>();
+        Consumer<Map<String, String[]>> fillMap = (Map<String, String[]> map) -> {
+            map.clear();
+            map.put( BloodDonationLogic.ID, new String[]{ Integer.toString(expectedEntity.getId())});
+            map.put( BloodDonationLogic.BANK_ID, new String[]{Integer.toString(expectedEntity.getBloodBank().getId())});
+            map.put( BloodDonationLogic.MILLILITERS, new String[]{Integer.toString(expectedEntity.getMilliliters())});
+            map.put( BloodDonationLogic.BLOOD_GROUP, new String[]{expectedEntity.getBloodGroup().getSymbol()} );
+            map.put( BloodDonationLogic.RHESUS_FACTOR, new String[]{expectedEntity.getRhd().getSymbol()} );
+            map.put( BloodDonationLogic.CREATED, new String[]{logic.convertDateToString(expectedEntity.getCreated())});
+        };
+
+        //idealy every test should be in its own method
+        fillMap.accept(sampleMap);
+        sampleMap.replace(BloodDonationLogic.ID, null);
+        assertThrows(NullPointerException.class, () -> logic.createEntity(sampleMap) );
+        sampleMap.replace(BloodDonationLogic.ID, new String[]{});
+        assertThrows(IndexOutOfBoundsException.class, () -> logic.createEntity(sampleMap) );
+        
+        fillMap.accept(sampleMap);
+        sampleMap.replace(BloodDonationLogic.BANK_ID, null);
+        assertThrows(NullPointerException.class, () -> logic.createEntity(sampleMap).setBloodBank(new BloodBank(Integer.parseInt(sampleMap.get(BloodDonationLogic.BANK_ID)[0]))));
+        sampleMap.replace(BloodDonationLogic.BANK_ID, new String[]{});
+        assertThrows(IndexOutOfBoundsException.class, () -> logic.createEntity(sampleMap).setBloodBank(new BloodBank(Integer.parseInt(sampleMap.get(BloodDonationLogic.BANK_ID)[0]))));
+
+        fillMap.accept(sampleMap);
+        sampleMap.replace(BloodDonationLogic.MILLILITERS, null );
+        assertThrows(NullPointerException.class, () -> logic.createEntity(sampleMap));
+        sampleMap.replace(BloodDonationLogic.MILLILITERS, new String[]{});
+        assertThrows(IndexOutOfBoundsException.class, () -> logic.createEntity(sampleMap));
+        
+        fillMap.accept(sampleMap);
+        sampleMap.replace(BloodDonationLogic.BLOOD_GROUP, null );
+        assertThrows(NullPointerException.class, () -> logic.createEntity(sampleMap));
+        sampleMap.replace(BloodDonationLogic.BLOOD_GROUP, new String[]{});
+        assertThrows(IndexOutOfBoundsException.class, () -> logic.createEntity(sampleMap));
+
+        fillMap.accept(sampleMap);
+        sampleMap.replace(BloodDonationLogic.RHESUS_FACTOR, null );
+        assertThrows(NullPointerException.class, () -> logic.createEntity(sampleMap));
+        sampleMap.replace(BloodDonationLogic.RHESUS_FACTOR, new String[]{});
+        assertThrows(IndexOutOfBoundsException.class, () -> logic.createEntity( sampleMap));
+
+        fillMap.accept( sampleMap);
+        sampleMap.replace(BloodDonationLogic.CREATED, null );
+        assertThrows(NullPointerException.class, () -> logic.createEntity(sampleMap));
+        sampleMap.replace(BloodDonationLogic.CREATED, new String[]{} );
+        assertThrows(IndexOutOfBoundsException.class, () -> logic.createEntity(sampleMap));
+
     }
     
     @Test

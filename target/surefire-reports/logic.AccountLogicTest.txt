@@ -1,4 +1,132 @@
 -------------------------------------------------------------------------------
 Test set: logic.AccountLogicTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.578 s - in logic.AccountLogicTest
+Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 30.528 s <<< FAILURE! - in logic.AccountLogicTest
+logic.AccountLogicTest.testCreateEntity  Time elapsed: 0.072 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testGetAccountWithDisplayName  Time elapsed: 0.035 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testCreateEntityNullAndEmptyValues  Time elapsed: 0.044 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testExtractDataAsList  Time elapsed: 0.042 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testGetAccountWIthUser  Time elapsed: 0.04 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testGetAccountsWithPassword  Time elapsed: 0.036 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testCreateEntityAndAdd  Time elapsed: 0.026 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testAccountValidation  Time elapsed: 0.034 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testCreateEntityBadLengthValues  Time elapsed: 0.031 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testCreateEntityEdgeValues  Time elapsed: 0.04 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testGetAll  Time elapsed: 0.04 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testGetColumnCodes  Time elapsed: 0.042 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testGetColumnNames  Time elapsed: 0.059 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testGetWithId  Time elapsed: 0.039 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testSearch  Time elapsed: 0.033 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+
+logic.AccountLogicTest.testGetAccountWithName  Time elapsed: 0.032 s  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:56)
+

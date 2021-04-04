@@ -107,7 +107,7 @@ public class BloodDonationLogic extends GenericLogic<BloodDonation, BloodDonatio
 
     @Override
     public List<?> extractDataAsList(BloodDonation e) {
-        return Arrays.asList(e.getId(), e.getBloodBank().getId(), e.getMilliliters(), e.getBloodGroup(), e.getRhd(), e.getCreated());
+        return Arrays.asList(e.getId(), e.getBloodBank() == null ? "null": e.getBloodBank().getId(), e.getMilliliters(), e.getBloodGroup(), e.getRhd(), e.getCreated());
     }
    
 }

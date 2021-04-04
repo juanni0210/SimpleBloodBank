@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: logic.BloodDonationLogicTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.885 s - in logic.BloodDonationLogicTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.301 s - in logic.BloodDonationLogicTest
