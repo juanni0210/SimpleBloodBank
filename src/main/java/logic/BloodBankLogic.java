@@ -74,7 +74,7 @@ public class BloodBankLogic extends GenericLogic<BloodBank, BloodBankDAL>{
             if( value == null || value.trim().isEmpty() || value.length() > length ){
                 String error = "";
                 if( value == null || value.trim().isEmpty() ){
-                    error = "value cannot be null or empty: " + value;
+                    error = "value cannot be null or empty.";
                 }
                 if( value.length() > length ){
                     error = "string length is " + value.length() + " > " + length;
@@ -83,11 +83,11 @@ public class BloodBankLogic extends GenericLogic<BloodBank, BloodBankDAL>{
             }
         };
         
-        //String ownerId = parameterMap.get(OWNER_ID)[0];
         String name = parameterMap.get(NAME)[0];
         String privatelyOwned = parameterMap.get(PRIVATELY_OWNED)[0];
         String established = parameterMap.get(ESTABLISHED)[0];
         String employeeCount = parameterMap.get(EMPLOYEE_COUNT)[0];
+        established = established.replaceAll("T", " ");
         
         validator.accept(name, 100);
         
@@ -111,14 +111,12 @@ public class BloodBankLogic extends GenericLogic<BloodBank, BloodBankDAL>{
 
     @Override
     public List<?> extractDataAsList(BloodBank e) {
-        return Arrays.asList( e.getId(), e.getOwner() == null ? "null" : e.getOwner().getId(), e.getName(), e.getPrivatelyOwned(), e.getEstablished(), e.getEmplyeeCount() );
+        return Arrays.asList( e.getId(), e.getOwner() == null ? "null" : e.getOwner().getId(), e.getName(), e.getPrivatelyOwned(), convertDateToString(e.getEstablished()), e.getEmplyeeCount() );
     }
-
-   
-
-
     
-    
-
+    @Override
+    public List<BloodBank> search( String search ) {
+        return get( () -> dal().findContaining( search ) );
+    }
     
 }

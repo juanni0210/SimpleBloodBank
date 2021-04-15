@@ -16,6 +16,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title><c:out value="${title}"/></title>
         <link rel="stylesheet" type="text/css" href="style/tablestyle.css">
+        <link rel="stylesheet" type="text/css" href="style/inputJSPstyle.css">
         <script>
             var isEditActive = false;
             var activeEditID = -1;
@@ -99,6 +100,7 @@
             </table>
         </form>
         <div style="text-align: center;">
+            <p class="errorMessage">${errorMessage}</p>
             <pre>${path}</br>${request}${message}</pre>
         </div>
     </body>

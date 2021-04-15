@@ -23,7 +23,8 @@ import org.junit.jupiter.api.Test;
 
 /**
  *
- * @author shado
+ * @author Juan Ni
+ * finished on March 28, 2021
  */
 public class BloodDonationLogicTest {
     
@@ -97,19 +98,19 @@ public class BloodDonationLogicTest {
 
     @Test
     final void testGetAll() {
-        //get all the accounts from the DB
+        //get all the blood donations from the DB
         List<BloodDonation> list = logic.getAll();
-        //store the size of list, this way we know how many accounts exits in DB
+        //store the size of list, this way we know how many blood donations exits in DB
         int originalSize = list.size();
 
-        //make sure account was created successfully
+        //make sure blood donation was created successfully
         assertNotNull(expectedEntity);
-        //delete the new account
+        //delete the new blood donation
         logic.delete(expectedEntity);
 
-        //get all accounts again
+        //get all blood donations again
         list = logic.getAll();
-        //the new size of accounts must be one less
+        //the new size of blood donations must be one less
         assertEquals( originalSize - 1, list.size() );
     }
     
@@ -157,7 +158,7 @@ public class BloodDonationLogicTest {
         int foundFull = 0;
         List<BloodDonation> returnedBloodDonations = logic.getBloodDonationWithBloodGroup(expectedEntity.getBloodGroup());
         for (BloodDonation bloodDonation : returnedBloodDonations) {
-            assertEquals(expectedEntity.getBloodGroup(), bloodDonation.getBloodGroup());
+            assertEquals(expectedEntity.getBloodGroup().getSymbol(), bloodDonation.getBloodGroup().getSymbol());
             if (bloodDonation.getId().equals(expectedEntity.getId())) {
                 assertBloodDonationEquals(expectedEntity, bloodDonation);
                 foundFull++;
@@ -211,7 +212,38 @@ public class BloodDonationLogicTest {
     @Test
     final void testCreateEntityAndAdd() {
         Map<String, String[]> sampleMap = new HashMap<>();
-        sampleMap.put(BloodDonationLogic.BANK_ID, new String[]{ "1"} );
+        sampleMap.put(BloodDonationLogic.MILLILITERS, new String[]{ "1111"});
+        sampleMap.put(BloodDonationLogic.BLOOD_GROUP, new String[]{ "A"});
+        sampleMap.put(BloodDonationLogic.RHESUS_FACTOR, new String[]{ "-"});
+        sampleMap.put(BloodDonationLogic.CREATED, new String[]{ "2021-04-02 12:00:00"});
+
+        
+        BloodBankLogic bloodBankLogic = LogicFactory.getFor("BloodBank");
+        
+        int bankID = 1;
+        
+        BloodDonation returnedBloodDonation = logic.createEntity(sampleMap);
+        BloodBank bloodBank = bloodBankLogic.getWithId(bankID);
+        if(bloodBank != null) {
+            returnedBloodDonation.setBloodBank(bloodBank);
+            logic.add(returnedBloodDonation);
+        } 
+        List<BloodDonation> returnedBloodDonations = logic.getBloodDonationsWithBloodBank(bankID);
+        returnedBloodDonation = returnedBloodDonations.get(returnedBloodDonations.size()-1);
+
+        assertEquals(bankID, returnedBloodDonation.getBloodBank().getId());
+        assertEquals(sampleMap.get(BloodDonationLogic.MILLILITERS )[ 0 ], Integer.toString(returnedBloodDonation.getMilliliters()));
+        assertEquals(sampleMap.get(BloodDonationLogic.BLOOD_GROUP)[ 0 ], returnedBloodDonation.getBloodGroup().getSymbol());
+        assertEquals(sampleMap.get(BloodDonationLogic.RHESUS_FACTOR)[ 0 ], returnedBloodDonation.getRhd().getSymbol());
+        assertEquals(sampleMap.get(BloodDonationLogic.CREATED)[ 0 ], logic.convertDateToString(returnedBloodDonation.getCreated()));
+
+        logic.delete(returnedBloodDonation);
+    }
+    
+    @Test
+    final void testCreateEntityBankNotExist() {
+        Map<String, String[]> sampleMap = new HashMap<>();
+        sampleMap.put(BloodDonationLogic.BANK_ID, new String[]{ "1000000"});
         sampleMap.put(BloodDonationLogic.MILLILITERS, new String[]{ "1111"});
         sampleMap.put(BloodDonationLogic.BLOOD_GROUP, new String[]{ "A"});
         sampleMap.put(BloodDonationLogic.RHESUS_FACTOR, new String[]{ "-"});
@@ -223,18 +255,10 @@ public class BloodDonationLogicTest {
         int bankID = Integer.parseInt(sampleMap.get(BloodDonationLogic.BANK_ID)[0]);
         
         BloodDonation returnedBloodDonation = logic.createEntity(sampleMap);
-        if(bloodBankLogic.getWithId(bankID) != null) {
-            returnedBloodDonation.setBloodBank(new BloodBank(bankID));
-            logic.add(returnedBloodDonation);
-        } 
-        returnedBloodDonation = logic.getWithId(returnedBloodDonation.getId());
-
-        assertEquals(sampleMap.get(BloodDonationLogic.BANK_ID)[ 0 ], Integer.toString(returnedBloodDonation.getBloodBank().getId()));
-        assertEquals(sampleMap.get(BloodDonationLogic.MILLILITERS )[ 0 ], Integer.toString(returnedBloodDonation.getMilliliters()));
-        assertEquals(sampleMap.get(BloodDonationLogic.BLOOD_GROUP)[ 0 ], returnedBloodDonation.getBloodGroup().getSymbol());
-        assertEquals(sampleMap.get(BloodDonationLogic.RHESUS_FACTOR)[ 0 ], returnedBloodDonation.getRhd().getSymbol());
-        assertEquals(sampleMap.get(BloodDonationLogic.CREATED)[ 0 ], logic.convertDateToString(returnedBloodDonation.getCreated()));
-
+        BloodBank bloodBank = bloodBankLogic.getWithId(bankID);
+        returnedBloodDonation.setBloodBank(bloodBank);
+        logic.add(returnedBloodDonation);
+        assertThrows(NullPointerException.class, () -> returnedBloodDonation.getBloodBank().getId());
         logic.delete(returnedBloodDonation);
     }
     
@@ -274,12 +298,13 @@ public class BloodDonationLogicTest {
         sampleMap.replace(BloodDonationLogic.ID, new String[]{});
         assertThrows(IndexOutOfBoundsException.class, () -> logic.createEntity(sampleMap) );
         
-        fillMap.accept(sampleMap);
-        sampleMap.replace(BloodDonationLogic.BANK_ID, null);
-        assertThrows(NullPointerException.class, () -> logic.createEntity(sampleMap).setBloodBank(new BloodBank(Integer.parseInt(sampleMap.get(BloodDonationLogic.BANK_ID)[0]))));
-        sampleMap.replace(BloodDonationLogic.BANK_ID, new String[]{});
-        assertThrows(IndexOutOfBoundsException.class, () -> logic.createEntity(sampleMap).setBloodBank(new BloodBank(Integer.parseInt(sampleMap.get(BloodDonationLogic.BANK_ID)[0]))));
-
+        fillMap.accept( sampleMap );
+        //can be null
+        sampleMap.replace( BloodDonationLogic.BANK_ID, new String[]{} );
+        BloodDonation bloodDonation = logic.createEntity( sampleMap );
+        assertThrows( IndexOutOfBoundsException.class, () -> bloodDonation.setBloodBank(new BloodBank(Integer.parseInt(sampleMap.get(BloodDonationLogic.BANK_ID)[0]))));
+        
+        
         fillMap.accept(sampleMap);
         sampleMap.replace(BloodDonationLogic.MILLILITERS, null );
         assertThrows(NullPointerException.class, () -> logic.createEntity(sampleMap));
@@ -303,13 +328,34 @@ public class BloodDonationLogicTest {
         assertThrows(NullPointerException.class, () -> logic.createEntity(sampleMap));
         sampleMap.replace(BloodDonationLogic.CREATED, new String[]{} );
         assertThrows(IndexOutOfBoundsException.class, () -> logic.createEntity(sampleMap));
+    }
+    
+    
+    @Test
+    final void testCreateEntityWithEmptyBankID() {
+        
+        Map<String, String[]> sampleMap = new HashMap<>();
+        sampleMap.put(BloodDonationLogic.BANK_ID, new String[]{ ""});
+        sampleMap.put(BloodDonationLogic.MILLILITERS, new String[]{ "500"});
+        sampleMap.put(BloodDonationLogic.BLOOD_GROUP, new String[]{ "AB"});
+        sampleMap.put(BloodDonationLogic.RHESUS_FACTOR, new String[]{ "+"});
+        sampleMap.put(BloodDonationLogic.CREATED, new String[]{ "2021-04-03 12:12:12"});
 
+        //idealy every test should be in its own method
+        BloodDonation returnBloodDonation = logic.createEntity(sampleMap);
+        assertEquals( sampleMap.get( BloodDonationLogic.MILLILITERS )[ 0 ], String.valueOf(returnBloodDonation.getMilliliters()));
+        assertEquals( sampleMap.get( BloodDonationLogic.BLOOD_GROUP )[ 0 ], returnBloodDonation.getBloodGroup().getSymbol());
+        assertEquals( sampleMap.get( BloodDonationLogic.RHESUS_FACTOR )[ 0 ], returnBloodDonation.getRhd().getSymbol());
+        assertEquals( sampleMap.get( BloodDonationLogic.CREATED )[ 0 ], logic.convertDateToString(returnBloodDonation.getCreated()));
+
+
+    
     }
     
     @Test
     final void testGetColumnNames() {
         List<String> list = logic.getColumnNames();
-        assertEquals( Arrays.asList("Donation ID", "Bank ID", "Milliliters", "Blood Group", "RHD", "Date Created"), list);
+        assertEquals( Arrays.asList("Donation ID", "Bank ID", "Milliliters", "Blood Group", "RHD", "Date"), list);
     }
     
     @Test
@@ -326,6 +372,6 @@ public class BloodDonationLogicTest {
         assertEquals(expectedEntity.getMilliliters(), list.get(2));
         assertEquals(expectedEntity.getBloodGroup(), list.get(3));
         assertEquals(expectedEntity.getRhd(), list.get(4));
-        assertEquals(expectedEntity.getCreated(), list.get(5));
+        assertEquals(logic.convertDateToString(expectedEntity.getCreated()), list.get(5));
     }
 }

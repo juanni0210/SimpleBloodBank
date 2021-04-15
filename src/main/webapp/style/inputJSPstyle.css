@@ -1,0 +1,49 @@
+/*create blood donation jsp page*/
+.inputJSPWrapper {
+    margin-top: 50px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submitAndViewRow{
+    margin-top: 30px;
+    
+    text-align: center;
+}
+
+.submitAndViewRow input {
+    margin-bottom: 30px;
+}
+
+
+
+/*blood donate form jsp page*/
+.donateFormWrapper {
+    margin-top: 30px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personTable, .bloodTable, .administrationTable {
+/*    background-color: #D3D3D3;*/
+    border-bottom: 5px solid #3755F5;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.submitRow input{
+    width: 100%;
+}
+
+
+/*common style*/
+.errorMessage {
+    font-weight: bold;
+    color: red;
+}

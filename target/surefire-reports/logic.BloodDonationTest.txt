@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: logic.BloodDonationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.029 s <<< FAILURE! - in logic.BloodDonationTest
-logic.BloodDonationTest.testGetAll  Time elapsed: 0.027 s  <<< ERROR!
-org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at logic.BloodDonationTest.setUp(BloodDonationTest.java:52)
-Caused by: org.hibernate.engine.jndi.JndiException: Unable to lookup JNDI name [java:comp/env/jdbc/SimpleBloodBank]
-	at logic.BloodDonationTest.setUp(BloodDonationTest.java:52)
-Caused by: javax.naming.NameNotFoundException: Name [comp/env/jdbc/SimpleBloodBank] is not bound in this Context. Unable to find [comp].
-	at logic.BloodDonationTest.setUp(BloodDonationTest.java:52)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s - in logic.BloodDonationTest

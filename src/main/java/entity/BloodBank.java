@@ -37,7 +37,9 @@ import javax.validation.constraints.Size;
     @NamedQuery( name = "BloodBank.findByPrivatelyOwned", query = "SELECT b FROM BloodBank b WHERE b.privatelyOwned = :privatelyOwned" ),
     @NamedQuery( name = "BloodBank.findByEstablished", query = "SELECT b FROM BloodBank b WHERE b.established = :established" ),
     @NamedQuery( name = "BloodBank.findByOwner", query = "SELECT b FROM BloodBank b WHERE b.owner.id = :ownerId" ),
-    @NamedQuery( name = "BloodBank.findByEmplyeeCount", query = "SELECT b FROM BloodBank b WHERE b.emplyeeCount = :emplyeeCount" ) } )
+    @NamedQuery( name = "BloodBank.findByEmplyeeCount", query = "SELECT b FROM BloodBank b WHERE b.emplyeeCount = :emplyeeCount" ),
+    //added this for bonus part
+    @NamedQuery( name = "BloodBank.findContaining", query = "SELECT b FROM BloodBank b WHERE b.name like CONCAT('%', :search, '%') or b.privatelyOwned like CONCAT('%', :search, '%') or b.emplyeeCount like CONCAT('%', :search, '%')" )} )
 public class BloodBank implements Serializable {
 
     private static final long serialVersionUID = 1L;

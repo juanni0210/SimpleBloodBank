@@ -62,6 +62,6 @@ public class BloodBankDAL extends GenericDAL<BloodBank>{
     public List<BloodBank> findContaining(String search) {
         Map<String, Object> map = new HashMap<>();
         map.put("search", search);  
-        return findResults("SELECT a FROM BloodBank a WHERE a.name like CONCAT('%', :search, '%') or a.employee_count like CONCAT('%', :search, '%')", map);     
+        return findResults("BloodBank.findContaining", map);     
     }
 }

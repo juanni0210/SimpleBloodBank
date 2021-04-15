@@ -10,6 +10,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.function.Consumer;
 
 
 /**
@@ -74,6 +75,14 @@ public class BloodDonationLogic extends GenericLogic<BloodDonation, BloodDonatio
                 throw new ValidationException(ex);
             }
         }
+        
+        Consumer<String> validator = (value) -> {
+            if( value == null || value.isEmpty() ){
+                String error = "";
+                error = "value cannot be null or empty.";
+                throw new ValidationException( error );
+            }
+        };
 
         //extract the date from map first.
         //everything in the parameterMap is string so it must first be
@@ -85,6 +94,8 @@ public class BloodDonationLogic extends GenericLogic<BloodDonation, BloodDonatio
         String rhd = parameterMap.get(RHESUS_FACTOR)[0];
         String created = parameterMap.get(CREATED)[0];
         created = created.replaceAll("T", " ");
+        
+        validator.accept(milliliters);
      
         //set values on entity
         entityBloodDonation.setMilliliters(Integer.parseInt(milliliters));
@@ -97,7 +108,7 @@ public class BloodDonationLogic extends GenericLogic<BloodDonation, BloodDonatio
     
     @Override
     public List<String> getColumnNames() {
-        return Arrays.asList("Donation ID", "Bank ID", "Milliliters", "Blood Group", "RHD", "Date Created");
+        return Arrays.asList("Donation ID", "Bank ID", "Milliliters", "Blood Group", "RHD", "Date");
     }
 
     @Override
@@ -107,7 +118,12 @@ public class BloodDonationLogic extends GenericLogic<BloodDonation, BloodDonatio
 
     @Override
     public List<?> extractDataAsList(BloodDonation e) {
-        return Arrays.asList(e.getId(), e.getBloodBank() == null ? "null": e.getBloodBank().getId(), e.getMilliliters(), e.getBloodGroup(), e.getRhd(), e.getCreated());
+        return Arrays.asList(e.getId(), e.getBloodBank() == null ? "null": e.getBloodBank().getId(), e.getMilliliters(), e.getBloodGroup(), e.getRhd(), convertDateToString(e.getCreated()));
     }
-   
+    
+    //bonus
+    @Override
+    public List<BloodDonation> search( String search ) {
+        return get( () -> dal().findContaining( search ) );
+    }
 }
