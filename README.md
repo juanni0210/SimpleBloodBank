@@ -7,9 +7,3 @@
 * Juan Ni -- Blood Donation Table
 * Sophie Sun -- Person Table
 
-#### Here is a brief explaination of what we have done in this project:
-
-
-https://user-images.githubusercontent.com/39057315/115078886-4ac7ed00-9ece-11eb-8d12-603556f3480c.mp4
-
-
