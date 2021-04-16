@@ -40,19 +40,28 @@ public class CreateBloodBank extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<title>Create Blood Bank</title>");
+            out.println("<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" "
+                    + "integrity=\"sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6\" crossorigin=\"anonymous\">");
             out.println("</head>");
             out.println("<body>");
             out.println("<div style=\"text-align: center;\">");
             out.println("<div style=\"display: inline-block; text-align: left;\">");
             out.println("<form method=\"post\">");
-            out.println("Owner ID:<br>");
-            out.printf("<input type=\"text\" name=\"%s\" value=\"\"><br>", BloodBankLogic.OWNER_ID);
-            out.println("<br>");
-            out.println("Bank Name:<br>");
-            out.printf("<input type=\"text\" name=\"%s\" value=\"\"><br>", BloodBankLogic.NAME);
-            out.println("<br>");
-            out.println("Privately Owned:<br>");
-            out.printf("<select name=\"%s\">", BloodBankLogic.PRIVATELY_OWNED);
+            out.println( "<div class=\"row\" style=\"text-align: center; margin-top: 30px; margin-bottom:20px;\"><h5><b>Create Person</b></h5></div>" );
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Owner ID:</label>");
+            out.printf( "<input class=\"form-control\" type=\"text\" name=\"%s\" value=\"\">", BloodBankLogic.OWNER_ID);
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Bank Name:</label>");
+            out.printf( "<input class=\"form-control\" type=\"text\" name=\"%s\" value=\"\">", BloodBankLogic.NAME);
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Privately Owned:</label>");
+            out.printf("<select class=\"form-select\" name=\"%s\">", BloodBankLogic.PRIVATELY_OWNED);
             out.println("<option value=\"1\">");
             out.println("True");
             out.println("</option>");
@@ -60,16 +69,22 @@ public class CreateBloodBank extends HttpServlet {
             out.println("False");
             out.println("</option>");
             out.println("</select>");
-            out.println("<br>");
-            out.println("<br>");
-            out.println("Established:<br>");
-            out.printf("<input type=\"datetime-local\" step =\"1\" name=\"%s\" value=\"\"><br>", BloodBankLogic.ESTABLISHED);
-            out.println("<br>");
-            out.println("EmployeeCount:<br>");
-            out.printf("<input type=\"text\" name=\"%s\" value=\"\"><br>", BloodBankLogic.EMPLOYEE_COUNT);
-            out.println("<br>");
-            out.println("<input type=\"submit\" name=\"view\" value=\"Add and View\">");
-            out.println("<input type=\"submit\" name=\"add\" value=\"Add\">");
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Established:</label>");
+            out.printf( "<input class=\"form-control\" type=\"datetime-local\" step =\"1\" name=\"%s\" value=\"\">", BloodBankLogic.ESTABLISHED);
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">EmployeeCount:</label>");
+            out.printf("<input class=\"form-control\" type=\"text\" name=\"%s\" value=\"\">", BloodBankLogic.EMPLOYEE_COUNT);
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\" style=\"margin-top: 30px; text-align: center;\">");
+            out.println("<input type=\"submit\" class=\"btn btn-primary\" name=\"view\" value=\"Add and View\">");
+            out.println("<input type=\"submit\" class=\"btn btn-primary\" name=\"add\" value=\"Add\">");
+            out.println("</div>");
             out.println("</form>");
 
             if (errorMessage != null && !errorMessage.isEmpty()) {
@@ -82,12 +97,14 @@ public class CreateBloodBank extends HttpServlet {
             }
             // clear the error message
             errorMessage = "";
-            out.println("<pre>");
+            out.println("<pre style=\"text-align: center;\">");
             out.println("Submitted keys and values:");
             out.println(toStringMap(request.getParameterMap()));
             out.println("</pre>");
             out.println("</div>");
             out.println("</div>");
+            out.println("<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js\" "
+                    + "integrity=\"sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf\" crossorigin=\"anonymous\"></script>");
             out.println("</body>");
             out.println("</html>");
         }

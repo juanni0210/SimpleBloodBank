@@ -37,30 +37,30 @@ public class BloodDonationTableView extends HttpServlet{
             out.println( "<html>" );
             out.println( "<head>" );
             out.println( "<title>BloodDonationViewNormal</title>" );
+            out.println("<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" "
+                    + "integrity=\"sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6\" crossorigin=\"anonymous\">");
             out.println( "</head>" );
             out.println( "<body>" );
-
-            out.println( "<table style=\"margin-left: auto; margin-right: auto;\" border=\"1\">" );
-            out.println( "<caption>Blood Donation</caption>" );
+            out.println( "<div class=\"container\">" );
+            out.println( "<div class=\"row\" style=\"text-align: center; margin-top: 30px; margin-bottom:20px;\"><h5><b>Blood Donations</b></h5></div>" );
+            out.println( "<table class=\"table table-bordered\" style=\"text-align: center; margin-left: auto; margin-right: auto;\" border=\"1\">" );
+            
             //this is an example, for your other tables use getColumnNames from
             //logic to create headers in a loop.
 
             BloodDonationLogic logic = LogicFactory.getFor( "BloodDonation" );
             out.println( "<tr>" );
-            logic.getColumnNames().forEach( c -> out.printf( "<th>%s</th>", c ) );
+            logic.getColumnNames().forEach( c -> out.printf( "<th class=\"table-primary\">%s</th>", c ) );
 
             out.println( "</tr>" );
 
             logic.getAll().forEach( e -> out.printf( "<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>",
                     logic.extractDataAsList( e ).toArray() ) );
-
-            out.println( "<tr>" );
-            //this is an example, for your other tables use getColumnNames from
-            //logic to create headers in a loop.
-            logic.getColumnNames().forEach( c -> out.printf( "<th>%s</th>", c ) );
-            out.println( "</tr>" );
             out.println( "</table>" );
+            out.println("</div>");
             out.printf( "<div style=\"text-align: center;\"><pre>%s</pre></div>", toStringMap( request.getParameterMap() ) );
+            out.println("<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js\" "
+                    + "integrity=\"sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf\" crossorigin=\"anonymous\"></script>");
             out.println( "</body>" );
             out.println( "</html>" );
         }

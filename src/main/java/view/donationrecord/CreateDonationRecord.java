@@ -42,20 +42,29 @@ public class CreateDonationRecord extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Create Donation Record</title>");            
+            out.println("<title>Create Donation Record</title>");
+            out.println("<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" "
+                    + "integrity=\"sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6\" crossorigin=\"anonymous\">");            
             out.println("</head>");
             out.println("<body>");
             out.println( "<div style=\"text-align: center;\">" );
             out.println( "<div style=\"display: inline-block; text-align: left;\">" );
             out.println( "<form method=\"post\">" );
-            out.println( "Person ID:<br>" );
-            out.printf( "<input type=\"text\" name=\"%s\" value=\"\"><br>", DonationRecordLogic.PERSON_ID );
-            out.println( "<br>" );
-            out.println( "Donation ID:<br>" );
-            out.printf( "<input type=\"text\" name=\"%s\" value=\"\"><br>", DonationRecordLogic.DONATION_ID );
-            out.println( "<br>" );
-            out.println( "Tested:<br>" );
-            out.printf("<select name=\"%s\">", DonationRecordLogic.TESTED);
+            out.println( "<div class=\"row\" style=\"text-align: center; margin-top: 30px; margin-bottom:20px;\"><h5><b>Create Donation Record</b></h5></div>" );
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Person ID:</label>");
+            out.printf( "<input class=\"form-control\" type=\"text\" name=\"%s\" value=\"\">", DonationRecordLogic.PERSON_ID );
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Donation ID:</label>");
+            out.printf( "<input class=\"form-control\" type=\"text\" name=\"%s\" value=\"\">", DonationRecordLogic.DONATION_ID );
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Tested:</label>");
+            out.printf("<select class=\"form-select\" name=\"%s\">", DonationRecordLogic.TESTED);
             out.println("<option value=\"True\">");
             out.println("True");
             out.println("</option>");
@@ -63,19 +72,27 @@ public class CreateDonationRecord extends HttpServlet {
             out.println("False");
             out.println("</option>");
             out.println("</select>");
-            out.println( "<br>" );
-            out.println( "<br>" );
-            out.println( "Administrator:<br>" );
-            out.printf( "<input type=\"text\" name=\"%s\" value=\"\"><br>", DonationRecordLogic.ADMINISTRATOR );
-            out.println( "<br>" );
-            out.println( "Hospital:<br>" );
-            out.printf( "<input type=\"text\" name=\"%s\" value=\"\"><br>", DonationRecordLogic.HOSPITAL );
-            out.println( "<br>" );
-            out.println( "Date Created:<br>" );
-            out.printf( "<input type=\"datetime-local\" name=\"%s\" value=\"\" step=\"1\"><br>", DonationRecordLogic.CREATED );
-            out.println( "<br>" );
-            out.println( "<input type=\"submit\" name=\"view\" value=\"Add and View\">" );
-            out.println( "<input type=\"submit\" name=\"add\" value=\"Add\">" );
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Administrator:</label>");
+            out.printf( "<input class=\"form-control\" type=\"text\" name=\"%s\" value=\"\">", DonationRecordLogic.ADMINISTRATOR );
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Hospital:</label>");
+            out.printf( "<input class=\"form-control\" type=\"text\" name=\"%s\" value=\"\">", DonationRecordLogic.HOSPITAL );
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Date Created:</label>");
+            out.printf( "<input class=\"form-control\" type=\"datetime-local\" name=\"%s\" value=\"\" step=\"1\">", DonationRecordLogic.CREATED );
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\" style=\"margin-top: 30px; text-align: center;\">");
+            out.println( "<input type=\"submit\" class=\"btn btn-primary\" name=\"view\" value=\"Add and View\">" );
+            out.println( "<input type=\"submit\" class=\"btn btn-primary\" name=\"add\" value=\"Add\">" );
+            out.println("</div>");
             out.println( "</form>" );
             if( errorMessage != null && !errorMessage.isEmpty() ){
                 out.println( "<p color=red>" );
@@ -86,12 +103,14 @@ public class CreateDonationRecord extends HttpServlet {
             }       
             // clear the error message
             errorMessage = "";
-            out.println( "<pre>" );
+            out.println( "<pre style=\"text-align: center;\">" );
             out.println( "Submitted keys and values:" );
             out.println( toStringMap( request.getParameterMap() ) );
             out.println( "</pre>" );
             out.println( "</div>" );
             out.println( "</div>" );
+            out.println("<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js\" "
+                    + "integrity=\"sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf\" crossorigin=\"anonymous\"></script>");
             out.println("</body>");
             out.println("</html>");
         }

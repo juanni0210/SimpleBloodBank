@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="logic.BloodDonationLogicTest" time="5.91" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="logic.BloodDonationLogicTest" time="6.53" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\shado\AppData\Local\Temp\surefire1620250781390553618\surefirebooter12060387275560406908.jar C:\Users\shado\AppData\Local\Temp\surefire1620250781390553618 2021-04-14T19-54-44_743-jvmRun1 surefire14372113667750789595tmp surefire_010018549349505590320tmp"/>
+    <property name="sun.java.command" value="C:\Users\shado\AppData\Local\Temp\surefire8143803750700881000\surefirebooter7987859668470119155.jar C:\Users\shado\AppData\Local\Temp\surefire8143803750700881000 2021-04-16T14-15-35_481-jvmRun1 surefire3008510472558204732tmp surefire_010256389202047183501tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="logic.BloodDonationLogicTest"/>
     <property name="surefire.test.class.path" value="D:\OneDrive - Algonquin College\Computer Programming\dev\Level 3\SimpleBloodBank-Skeleton\target\test-classes;D:\OneDrive - Algonquin College\Computer Programming\dev\Level 3\SimpleBloodBank-Skeleton\target\classes;C:\Users\shado\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\shado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\shado\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\shado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\shado\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\shado\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\shado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\shado\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\shado\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\shado\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\shado\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\shado\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.0\log4j-api-2.14.0.jar;C:\Users\shado\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.0\log4j-core-2.14.0.jar;C:\Users\shado\.m2\repository\org\hibernate\hibernate-core\5.4.27.Final\hibernate-core-5.4.27.Final.jar;C:\Users\shado\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\shado\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\shado\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\shado\.m2\repository\net\bytebuddy\byte-buddy\1.10.17\byte-buddy-1.10.17.jar;C:\Users\shado\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\shado\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\shado\.m2\repository\org\jboss\jandex\2.1.3.Final\jandex-2.1.3.Final.jar;C:\Users\shado\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\shado\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\shado\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\shado\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\shado\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\shado\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\shado\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\shado\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\shado\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\shado\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\shado\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.44\tomcat-embed-core-9.0.44.jar;C:\Users\shado\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.44\tomcat-annotations-api-9.0.44.jar;C:\Users\shado\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\9.0.44\tomcat-embed-jasper-9.0.44.jar;C:\Users\shado\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.44\tomcat-embed-el-9.0.44.jar;C:\Users\shado\.m2\repository\org\eclipse\jdt\ecj\3.18.0\ecj-3.18.0.jar;C:\Users\shado\.m2\repository\org\apache\tomcat\tomcat-jdbc\9.0.44\tomcat-jdbc-9.0.44.jar;C:\Users\shado\.m2\repository\org\apache\tomcat\tomcat-juli\9.0.44\tomcat-juli-9.0.44.jar;C:\Users\shado\.m2\repository\jakarta\platform\jakarta.jakartaee-api\8.0.0\jakarta.jakartaee-api-8.0.0.jar;C:\Users\shado\.m2\repository\org\glassfish\web\jakarta.servlet.jsp.jstl\1.2.6\jakarta.servlet.jsp.jstl-1.2.6.jar;C:\Users\shado\.m2\repository\jakarta\servlet\jsp\jstl\jakarta.servlet.jsp.jstl-api\1.2.4\jakarta.servlet.jsp.jstl-api-1.2.4.jar;C:\Users\shado\.m2\repository\jakarta\servlet\jakarta.servlet-api\4.0.2\jakarta.servlet-api-4.0.2.jar;C:\Users\shado\.m2\repository\jakarta\el\jakarta.el-api\3.0.2\jakarta.el-api-3.0.2.jar;C:\Users\shado\.m2\repository\mysql\mysql-connector-java\8.0.23\mysql-connector-java-8.0.23.jar;C:\Users\shado\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;"/>
@@ -36,7 +36,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\shado\AppData\Local\Temp\surefire1620250781390553618\surefirebooter12060387275560406908.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\shado\AppData\Local\Temp\surefire8143803750700881000\surefirebooter7987859668470119155.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9.1+1"/>
@@ -67,145 +67,145 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testCreateEntity" classname="logic.BloodDonationLogicTest" time="0.223">
-    <system-out><![CDATA[2021-04-14T19:54:48,827|[DEBUG] ServletListener - Initializing EMF
-2021-04-14T19:54:48,835|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:48,835|[DEBUG] EMFactory - creating EntityManagerFactory
-2021-04-14T19:54:48,869|[DEBUG] logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
-2021-04-14T19:54:48,981|[INFO ] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: simplebloodbank-PU-test]
-2021-04-14T19:54:49,031|[INFO ] Version - HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-04-14T19:54:49,179|[INFO ] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-04-14T19:54:49,206|[DEBUG] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@18a6451f
-2021-04-14T19:54:49,206|[DEBUG] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@18a6451f
-2021-04-14T19:54:49,206|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@18a6451f
-2021-04-14T19:54:49,206|[DEBUG] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7773d139
-2021-04-14T19:54:49,208|[DEBUG] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@3330bdd1
-2021-04-14T19:54:49,208|[DEBUG] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@29e3c7fe
-2021-04-14T19:54:49,209|[DEBUG] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@5cb63d05
-2021-04-14T19:54:49,210|[DEBUG] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@5cb63d05
-2021-04-14T19:54:49,210|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5cb63d05
-2021-04-14T19:54:49,210|[DEBUG] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@6c430548
-2021-04-14T19:54:49,210|[DEBUG] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@6c430548
-2021-04-14T19:54:49,210|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6c430548
-2021-04-14T19:54:49,210|[DEBUG] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@546f0369
-2021-04-14T19:54:49,210|[DEBUG] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@546f0369
-2021-04-14T19:54:49,212|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@546f0369
-2021-04-14T19:54:49,212|[DEBUG] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@6e32eea5
-2021-04-14T19:54:49,212|[DEBUG] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@6e32eea5
-2021-04-14T19:54:49,212|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6e32eea5
-2021-04-14T19:54:49,212|[DEBUG] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@2d45db20
-2021-04-14T19:54:49,213|[DEBUG] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@2d45db20
-2021-04-14T19:54:49,213|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@2d45db20
-2021-04-14T19:54:49,213|[DEBUG] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@52bf434b
-2021-04-14T19:54:49,213|[DEBUG] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@52bf434b
-2021-04-14T19:54:49,214|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@52bf434b
-2021-04-14T19:54:49,214|[DEBUG] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@563b9462
-2021-04-14T19:54:49,215|[DEBUG] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@563b9462
-2021-04-14T19:54:49,215|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@563b9462
-2021-04-14T19:54:49,216|[DEBUG] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6ad51d91
-2021-04-14T19:54:49,216|[DEBUG] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6ad51d91
-2021-04-14T19:54:49,217|[DEBUG] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@288c16a5
-2021-04-14T19:54:49,217|[DEBUG] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@288c16a5
-2021-04-14T19:54:49,218|[DEBUG] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@7540aa55
-2021-04-14T19:54:49,219|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@7540aa55
-2021-04-14T19:54:49,219|[DEBUG] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@14f03098
-2021-04-14T19:54:49,221|[DEBUG] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7df468f6
-2021-04-14T19:54:49,222|[DEBUG] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@35f9c37c
-2021-04-14T19:54:49,223|[DEBUG] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@35f9c37c
-2021-04-14T19:54:49,224|[DEBUG] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@5bfa2801
-2021-04-14T19:54:49,224|[DEBUG] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@5bfa2801
-2021-04-14T19:54:49,231|[DEBUG] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@27c243a3
-2021-04-14T19:54:49,231|[DEBUG] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@27c243a3
-2021-04-14T19:54:49,232|[DEBUG] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@da87122
-2021-04-14T19:54:49,232|[DEBUG] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@da87122
-2021-04-14T19:54:49,233|[DEBUG] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1c8ab147
-2021-04-14T19:54:49,233|[DEBUG] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1c8ab147
-2021-04-14T19:54:49,234|[DEBUG] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@157f284b
-2021-04-14T19:54:49,234|[DEBUG] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@157f284b
-2021-04-14T19:54:49,236|[DEBUG] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@639f7054
-2021-04-14T19:54:49,236|[DEBUG] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@639f7054
-2021-04-14T19:54:49,237|[DEBUG] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@13e59265
-2021-04-14T19:54:49,237|[DEBUG] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@13e59265
-2021-04-14T19:54:49,238|[DEBUG] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@347c6044
-2021-04-14T19:54:49,238|[DEBUG] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@347c6044
-2021-04-14T19:54:49,239|[DEBUG] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@6ed836b3
-2021-04-14T19:54:49,239|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@6ed836b3
-2021-04-14T19:54:49,240|[DEBUG] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@4ee127c6
-2021-04-14T19:54:49,241|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4ee127c6
-2021-04-14T19:54:49,242|[DEBUG] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@39a54d70
-2021-04-14T19:54:49,242|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@39a54d70
-2021-04-14T19:54:49,242|[DEBUG] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@39a54d70
-2021-04-14T19:54:49,243|[DEBUG] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3693deae
-2021-04-14T19:54:49,243|[DEBUG] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@398e1a48
-2021-04-14T19:54:49,244|[DEBUG] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@398e1a48
-2021-04-14T19:54:49,244|[DEBUG] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@398e1a48
-2021-04-14T19:54:49,244|[DEBUG] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@b42a630
-2021-04-14T19:54:49,245|[DEBUG] BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@67a02460
-2021-04-14T19:54:49,246|[DEBUG] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@15cf663c
-2021-04-14T19:54:49,246|[DEBUG] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@15cf663c
-2021-04-14T19:54:49,247|[DEBUG] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@68317dc0
-2021-04-14T19:54:49,247|[DEBUG] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@68317dc0
-2021-04-14T19:54:49,248|[DEBUG] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@2c9e3083
-2021-04-14T19:54:49,248|[DEBUG] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2c9e3083
-2021-04-14T19:54:49,249|[DEBUG] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@179eb386
-2021-04-14T19:54:49,249|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@179eb386
-2021-04-14T19:54:49,250|[DEBUG] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@70915da3
-2021-04-14T19:54:49,250|[DEBUG] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@70915da3
-2021-04-14T19:54:49,250|[DEBUG] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4fe3d15f
-2021-04-14T19:54:49,251|[DEBUG] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@6d0937e
-2021-04-14T19:54:49,251|[DEBUG] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@6d0937e
-2021-04-14T19:54:49,251|[DEBUG] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@6d0937e
-2021-04-14T19:54:49,252|[DEBUG] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4854c964
-2021-04-14T19:54:49,252|[DEBUG] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4854c964
-2021-04-14T19:54:49,252|[DEBUG] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4854c964
-2021-04-14T19:54:49,253|[DEBUG] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@33260ecd
-2021-04-14T19:54:49,254|[DEBUG] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@49c15ad2
-2021-04-14T19:54:49,254|[DEBUG] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@2b65081d
-2021-04-14T19:54:49,255|[DEBUG] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@2b65081d
-2021-04-14T19:54:49,255|[DEBUG] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@2b65081d
-2021-04-14T19:54:49,256|[DEBUG] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7fab8e9a
-2021-04-14T19:54:49,256|[DEBUG] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7fab8e9a
-2021-04-14T19:54:49,256|[DEBUG] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7fab8e9a
-2021-04-14T19:54:49,257|[DEBUG] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@38a7f7a2
-2021-04-14T19:54:49,257|[DEBUG] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@2280c0f5
-2021-04-14T19:54:49,259|[DEBUG] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@76cb6d16
-2021-04-14T19:54:49,259|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@76cb6d16
-2021-04-14T19:54:49,259|[DEBUG] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3bd6ce4e
-2021-04-14T19:54:49,260|[DEBUG] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@4f2a0651
-2021-04-14T19:54:49,260|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4f2a0651
-2021-04-14T19:54:49,261|[DEBUG] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@3b60efd8
-2021-04-14T19:54:49,261|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3b60efd8
-2021-04-14T19:54:49,262|[DEBUG] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4c49471c
-2021-04-14T19:54:49,262|[DEBUG] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@241410c5
-2021-04-14T19:54:49,263|[DEBUG] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@10683f87
-2021-04-14T19:54:49,266|[DEBUG] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@7e9079cf
-2021-04-14T19:54:49,266|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@7e9079cf
-2021-04-14T19:54:49,266|[DEBUG] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@a353dff
-2021-04-14T19:54:49,266|[DEBUG] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2b360641
-2021-04-14T19:54:49,266|[DEBUG] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@779d7ff4
-2021-04-14T19:54:49,266|[DEBUG] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@33a9f5b0
-2021-04-14T19:54:49,266|[DEBUG] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1050fcff
-2021-04-14T19:54:49,266|[DEBUG] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@bcfe4ba
-2021-04-14T19:54:49,267|[DEBUG] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@173158e8
-2021-04-14T19:54:49,267|[DEBUG] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6bc93bcb
-2021-04-14T19:54:49,423|[INFO ] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2021-04-14T19:54:49,494|[DEBUG] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@275aac80] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@5f8cd1e5]
-2021-04-14T19:54:49,638|[INFO ] beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
-2021-04-14T19:54:49,640|[DEBUG] JavaTypeDescriptorRegistry - Could not find matching scoped JavaTypeDescriptor for requested Java class [entity.RhesusFactorConvertor]; falling back to static registry
-2021-04-14T19:54:49,643|[DEBUG] JavaTypeDescriptorRegistry - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
-2021-04-14T19:54:49,646|[DEBUG] AttributeConverterTypeAdapter - Created AttributeConverterTypeAdapter -> converted::entity.RhesusFactorConvertor
-2021-04-14T19:54:49,676|[DEBUG] EnumType - Using NAMED-based conversion for Enum entity.BloodGroup
-2021-04-14T19:54:49,758|[DEBUG] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@275aac80] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@17f00930]
-2021-04-14T19:54:50,126|[INFO ] SchemaCreatorImpl - HHH000476: Executing import script 'file:/D:/OneDrive%20-%20Algonquin%20College/Computer%20Programming/dev/Level%203/SimpleBloodBank-Skeleton/target/classes/META-INF/sql/simplebloodbank-drop.sql'
-2021-04-14T19:54:50,138|[DEBUG] SQL - 
+  <testcase name="testCreateEntity" classname="logic.BloodDonationLogicTest" time="0.229">
+    <system-out><![CDATA[2021-04-16T14:15:39,890|[DEBUG] ServletListener - Initializing EMF
+2021-04-16T14:15:39,898|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:39,898|[DEBUG] EMFactory - creating EntityManagerFactory
+2021-04-16T14:15:39,922|[DEBUG] logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2021-04-16T14:15:40,049|[INFO ] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: simplebloodbank-PU-test]
+2021-04-16T14:15:40,113|[INFO ] Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-04-16T14:15:40,289|[INFO ] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-16T14:15:40,327|[DEBUG] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@18a6451f
+2021-04-16T14:15:40,327|[DEBUG] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@18a6451f
+2021-04-16T14:15:40,327|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@18a6451f
+2021-04-16T14:15:40,328|[DEBUG] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7773d139
+2021-04-16T14:15:40,329|[DEBUG] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@3330bdd1
+2021-04-16T14:15:40,329|[DEBUG] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@29e3c7fe
+2021-04-16T14:15:40,331|[DEBUG] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@5cb63d05
+2021-04-16T14:15:40,331|[DEBUG] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@5cb63d05
+2021-04-16T14:15:40,331|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5cb63d05
+2021-04-16T14:15:40,332|[DEBUG] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@6c430548
+2021-04-16T14:15:40,333|[DEBUG] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@6c430548
+2021-04-16T14:15:40,333|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6c430548
+2021-04-16T14:15:40,334|[DEBUG] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@546f0369
+2021-04-16T14:15:40,334|[DEBUG] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@546f0369
+2021-04-16T14:15:40,335|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@546f0369
+2021-04-16T14:15:40,336|[DEBUG] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@6e32eea5
+2021-04-16T14:15:40,336|[DEBUG] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@6e32eea5
+2021-04-16T14:15:40,336|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6e32eea5
+2021-04-16T14:15:40,338|[DEBUG] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@2d45db20
+2021-04-16T14:15:40,338|[DEBUG] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@2d45db20
+2021-04-16T14:15:40,338|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@2d45db20
+2021-04-16T14:15:40,339|[DEBUG] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@52bf434b
+2021-04-16T14:15:40,339|[DEBUG] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@52bf434b
+2021-04-16T14:15:40,340|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@52bf434b
+2021-04-16T14:15:40,341|[DEBUG] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@563b9462
+2021-04-16T14:15:40,342|[DEBUG] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@563b9462
+2021-04-16T14:15:40,342|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@563b9462
+2021-04-16T14:15:40,343|[DEBUG] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6ad51d91
+2021-04-16T14:15:40,343|[DEBUG] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6ad51d91
+2021-04-16T14:15:40,345|[DEBUG] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@288c16a5
+2021-04-16T14:15:40,345|[DEBUG] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@288c16a5
+2021-04-16T14:15:40,346|[DEBUG] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@7540aa55
+2021-04-16T14:15:40,347|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@7540aa55
+2021-04-16T14:15:40,347|[DEBUG] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@14f03098
+2021-04-16T14:15:40,348|[DEBUG] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7df468f6
+2021-04-16T14:15:40,349|[DEBUG] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@35f9c37c
+2021-04-16T14:15:40,349|[DEBUG] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@35f9c37c
+2021-04-16T14:15:40,351|[DEBUG] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@5bfa2801
+2021-04-16T14:15:40,351|[DEBUG] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@5bfa2801
+2021-04-16T14:15:40,363|[DEBUG] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@27c243a3
+2021-04-16T14:15:40,363|[DEBUG] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@27c243a3
+2021-04-16T14:15:40,365|[DEBUG] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@da87122
+2021-04-16T14:15:40,365|[DEBUG] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@da87122
+2021-04-16T14:15:40,366|[DEBUG] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1c8ab147
+2021-04-16T14:15:40,367|[DEBUG] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1c8ab147
+2021-04-16T14:15:40,368|[DEBUG] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@157f284b
+2021-04-16T14:15:40,369|[DEBUG] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@157f284b
+2021-04-16T14:15:40,371|[DEBUG] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@639f7054
+2021-04-16T14:15:40,371|[DEBUG] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@639f7054
+2021-04-16T14:15:40,373|[DEBUG] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@13e59265
+2021-04-16T14:15:40,373|[DEBUG] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@13e59265
+2021-04-16T14:15:40,376|[DEBUG] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@347c6044
+2021-04-16T14:15:40,376|[DEBUG] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@347c6044
+2021-04-16T14:15:40,378|[DEBUG] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@6ed836b3
+2021-04-16T14:15:40,378|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@6ed836b3
+2021-04-16T14:15:40,381|[DEBUG] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@4ee127c6
+2021-04-16T14:15:40,381|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4ee127c6
+2021-04-16T14:15:40,383|[DEBUG] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@39a54d70
+2021-04-16T14:15:40,383|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@39a54d70
+2021-04-16T14:15:40,383|[DEBUG] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@39a54d70
+2021-04-16T14:15:40,384|[DEBUG] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3693deae
+2021-04-16T14:15:40,386|[DEBUG] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@398e1a48
+2021-04-16T14:15:40,386|[DEBUG] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@398e1a48
+2021-04-16T14:15:40,386|[DEBUG] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@398e1a48
+2021-04-16T14:15:40,388|[DEBUG] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@b42a630
+2021-04-16T14:15:40,389|[DEBUG] BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@67a02460
+2021-04-16T14:15:40,390|[DEBUG] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@15cf663c
+2021-04-16T14:15:40,391|[DEBUG] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@15cf663c
+2021-04-16T14:15:40,393|[DEBUG] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@68317dc0
+2021-04-16T14:15:40,393|[DEBUG] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@68317dc0
+2021-04-16T14:15:40,394|[DEBUG] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@2c9e3083
+2021-04-16T14:15:40,395|[DEBUG] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2c9e3083
+2021-04-16T14:15:40,396|[DEBUG] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@179eb386
+2021-04-16T14:15:40,396|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@179eb386
+2021-04-16T14:15:40,398|[DEBUG] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@70915da3
+2021-04-16T14:15:40,398|[DEBUG] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@70915da3
+2021-04-16T14:15:40,398|[DEBUG] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4fe3d15f
+2021-04-16T14:15:40,400|[DEBUG] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@6d0937e
+2021-04-16T14:15:40,400|[DEBUG] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@6d0937e
+2021-04-16T14:15:40,400|[DEBUG] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@6d0937e
+2021-04-16T14:15:40,402|[DEBUG] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4854c964
+2021-04-16T14:15:40,402|[DEBUG] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4854c964
+2021-04-16T14:15:40,402|[DEBUG] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4854c964
+2021-04-16T14:15:40,404|[DEBUG] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@33260ecd
+2021-04-16T14:15:40,404|[DEBUG] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@49c15ad2
+2021-04-16T14:15:40,405|[DEBUG] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@2b65081d
+2021-04-16T14:15:40,406|[DEBUG] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@2b65081d
+2021-04-16T14:15:40,406|[DEBUG] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@2b65081d
+2021-04-16T14:15:40,407|[DEBUG] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7fab8e9a
+2021-04-16T14:15:40,407|[DEBUG] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7fab8e9a
+2021-04-16T14:15:40,407|[DEBUG] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7fab8e9a
+2021-04-16T14:15:40,408|[DEBUG] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@38a7f7a2
+2021-04-16T14:15:40,409|[DEBUG] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@2280c0f5
+2021-04-16T14:15:40,411|[DEBUG] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@76cb6d16
+2021-04-16T14:15:40,411|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@76cb6d16
+2021-04-16T14:15:40,412|[DEBUG] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3bd6ce4e
+2021-04-16T14:15:40,414|[DEBUG] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@4f2a0651
+2021-04-16T14:15:40,414|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4f2a0651
+2021-04-16T14:15:40,416|[DEBUG] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@3b60efd8
+2021-04-16T14:15:40,416|[DEBUG] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3b60efd8
+2021-04-16T14:15:40,417|[DEBUG] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4c49471c
+2021-04-16T14:15:40,417|[DEBUG] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@241410c5
+2021-04-16T14:15:40,419|[DEBUG] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@10683f87
+2021-04-16T14:15:40,423|[DEBUG] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@7e9079cf
+2021-04-16T14:15:40,423|[DEBUG] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@7e9079cf
+2021-04-16T14:15:40,423|[DEBUG] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@a353dff
+2021-04-16T14:15:40,424|[DEBUG] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2b360641
+2021-04-16T14:15:40,424|[DEBUG] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@779d7ff4
+2021-04-16T14:15:40,424|[DEBUG] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@33a9f5b0
+2021-04-16T14:15:40,424|[DEBUG] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1050fcff
+2021-04-16T14:15:40,424|[DEBUG] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@bcfe4ba
+2021-04-16T14:15:40,424|[DEBUG] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@173158e8
+2021-04-16T14:15:40,424|[DEBUG] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6bc93bcb
+2021-04-16T14:15:40,618|[INFO ] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-16T14:15:40,695|[DEBUG] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@275aac80] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@5f8cd1e5]
+2021-04-16T14:15:40,837|[INFO ] beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-04-16T14:15:40,839|[DEBUG] JavaTypeDescriptorRegistry - Could not find matching scoped JavaTypeDescriptor for requested Java class [entity.RhesusFactorConvertor]; falling back to static registry
+2021-04-16T14:15:40,842|[DEBUG] JavaTypeDescriptorRegistry - Could not find matching scoped JavaTypeDescriptor for requested Java class [java.lang.String]; falling back to static registry
+2021-04-16T14:15:40,844|[DEBUG] AttributeConverterTypeAdapter - Created AttributeConverterTypeAdapter -> converted::entity.RhesusFactorConvertor
+2021-04-16T14:15:40,874|[DEBUG] EnumType - Using NAMED-based conversion for Enum entity.BloodGroup
+2021-04-16T14:15:40,972|[DEBUG] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@275aac80] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@17f00930]
+2021-04-16T14:15:41,386|[INFO ] SchemaCreatorImpl - HHH000476: Executing import script 'file:/D:/OneDrive%20-%20Algonquin%20College/Computer%20Programming/dev/Level%203/SimpleBloodBank-Skeleton/target/classes/META-INF/sql/simplebloodbank-drop.sql'
+2021-04-16T14:15:41,402|[DEBUG] SQL - 
     
     DROP SCHEMA IF EXISTS `simplebloodbank`
-2021-04-14T19:54:50,263|[INFO ] SchemaCreatorImpl - HHH000476: Executing import script 'file:/D:/OneDrive%20-%20Algonquin%20College/Computer%20Programming/dev/Level%203/SimpleBloodBank-Skeleton/target/classes/META-INF/sql/simplebloodbank-create.sql'
-2021-04-14T19:54:50,274|[DEBUG] SQL - CREATE SCHEMA IF NOT EXISTS `simplebloodbank` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci
-2021-04-14T19:54:50,283|[DEBUG] SQL - 
+2021-04-16T14:15:41,521|[INFO ] SchemaCreatorImpl - HHH000476: Executing import script 'file:/D:/OneDrive%20-%20Algonquin%20College/Computer%20Programming/dev/Level%203/SimpleBloodBank-Skeleton/target/classes/META-INF/sql/simplebloodbank-create.sql'
+2021-04-16T14:15:41,533|[DEBUG] SQL - CREATE SCHEMA IF NOT EXISTS `simplebloodbank` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci
+2021-04-16T14:15:41,542|[DEBUG] SQL - 
     
     USE `simplebloodbank`
-2021-04-14T19:54:50,285|[DEBUG] SQL - 
+2021-04-16T14:15:41,544|[DEBUG] SQL - 
     
     CREATE TABLE IF NOT EXISTS `simplebloodbank`.`person` (
           `id` INT NOT NULL AUTO_INCREMENT,
@@ -217,7 +217,7 @@
           PRIMARY KEY (`id`),
           UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE
     ) ENGINE = InnoDB AUTO_INCREMENT = 2 DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci
-2021-04-14T19:54:50,337|[DEBUG] SQL - 
+2021-04-16T14:15:41,593|[DEBUG] SQL - 
     
     CREATE TABLE IF NOT EXISTS `simplebloodbank`.`blood_bank` (
           `bank_id` INT NOT NULL AUTO_INCREMENT,
@@ -232,7 +232,7 @@
           INDEX `fk_blood_bank_person1_idx` (`owner` ASC) VISIBLE,
           CONSTRAINT `fk_blood_bank_person1`     FOREIGN KEY (`owner`)     REFERENCES `simplebloodbank`.`person` (`id`)     ON DELETE NO ACTION     ON UPDATE NO ACTION
     ) ENGINE = InnoDB DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci
-2021-04-14T19:54:50,410|[DEBUG] SQL - 
+2021-04-16T14:15:41,759|[DEBUG] SQL - 
     
     CREATE TABLE IF NOT EXISTS `simplebloodbank`.`blood_donation` (
           `donation_id` INT NOT NULL AUTO_INCREMENT,
@@ -246,7 +246,7 @@
           UNIQUE INDEX `donation_id_UNIQUE` (`donation_id` ASC) VISIBLE,
           CONSTRAINT `fk_blood_donation_blood_bank1`     FOREIGN KEY (`bank_id`)     REFERENCES `simplebloodbank`.`blood_bank` (`bank_id`)
     ) ENGINE = InnoDB DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci
-2021-04-14T19:54:50,465|[DEBUG] SQL - 
+2021-04-16T14:15:41,861|[DEBUG] SQL - 
     
     CREATE TABLE IF NOT EXISTS `simplebloodbank`.`donation_record` (
           `record_id` INT NOT NULL AUTO_INCREMENT,
@@ -263,7 +263,7 @@
           CONSTRAINT `fk_donation_record_blood_donation1`     FOREIGN KEY (`donation_id`)     REFERENCES `simplebloodbank`.`blood_donation` (`donation_id`),
           CONSTRAINT `fk_donation_record_person1`     FOREIGN KEY (`person_id`)     REFERENCES `simplebloodbank`.`person` (`id`)
     ) ENGINE = InnoDB DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci
-2021-04-14T19:54:50,517|[DEBUG] SQL - 
+2021-04-16T14:15:41,927|[DEBUG] SQL - 
     
     CREATE TABLE IF NOT EXISTS `simplebloodbank`.`account` (
           `id` INT NOT NULL AUTO_INCREMENT,
@@ -275,11 +275,11 @@
           UNIQUE INDEX `name_UNIQUE` (`name` ASC) VISIBLE,
           UNIQUE INDEX `username_UNIQUE` (`username` ASC) VISIBLE
     ) ENGINE = InnoDB
-2021-04-14T19:54:50,644|[INFO ] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-04-14T19:54:50,758|[DEBUG] ServletListener - EMF initialized
-2021-04-14T19:54:51,074|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,074|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,148|[DEBUG] SQL - 
+2021-04-16T14:15:41,994|[INFO ] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-16T14:15:42,113|[DEBUG] ServletListener - EMF initialized
+2021-04-16T14:15:42,424|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,424|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,497|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -291,8 +291,8 @@
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,167|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,193|[DEBUG] SQL - 
+2021-04-16T14:15:42,517|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,543|[DEBUG] SQL - 
     /* insert entity.BloodBank
         */ insert 
         into
@@ -300,12 +300,12 @@
             (emplyee_count, established, name, owner, privately_owned) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,194|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [111]
-2021-04-14T19:54:51,195|[TRACE] BasicBinder - binding parameter [2] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,196|[TRACE] BasicBinder - binding parameter [3] as [VARCHAR] - [JUNIT]
-2021-04-14T19:54:51,196|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [null]
-2021-04-14T19:54:51,197|[TRACE] BasicBinder - binding parameter [5] as [BOOLEAN] - [true]
-2021-04-14T19:54:51,206|[DEBUG] SQL - 
+2021-04-16T14:15:42,543|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [111]
+2021-04-16T14:15:42,544|[TRACE] BasicBinder - binding parameter [2] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:42,546|[TRACE] BasicBinder - binding parameter [3] as [VARCHAR] - [JUNIT]
+2021-04-16T14:15:42,546|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [null]
+2021-04-16T14:15:42,546|[TRACE] BasicBinder - binding parameter [5] as [BOOLEAN] - [true]
+2021-04-16T14:15:42,557|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -313,15 +313,15 @@
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,206|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,206|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,206|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,207|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,207|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,207|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,230|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,230|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,233|[DEBUG] SQL - 
+2021-04-16T14:15:42,558|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,558|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:42,558|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:42,558|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:42,559|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:42,559|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:42,587|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,587|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,589|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -333,28 +333,28 @@
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,233|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,237|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,237|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,238|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,238|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,238|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,238|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,263|[DEBUG] SQL - 
+2021-04-16T14:15:42,590|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,593|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,594|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:42,594|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,595|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:42,595|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,595|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,618|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,263|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,618|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
 ]]></system-out>
-    <system-err><![CDATA[Apr 14, 2021 7:54:46 PM org.apache.catalina.core.StandardService startInternal
+    <system-err><![CDATA[Apr 16, 2021 2:15:37 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Apr 14, 2021 7:54:46 PM org.apache.catalina.core.StandardEngine startInternal
+Apr 16, 2021 2:15:37 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.44]
-Apr 14, 2021 7:54:46 PM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+Apr 16, 2021 2:15:37 PM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
 INFO: No global web.xml found
-Apr 14, 2021 7:54:46 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:37 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -474,7 +474,7 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 98 more
 
-Apr 14, 2021 7:54:46 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:37 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -594,7 +594,7 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 98 more
 
-Apr 14, 2021 7:54:46 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:37 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -714,7 +714,7 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 98 more
 
-Apr 14, 2021 7:54:46 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:37 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -834,7 +834,7 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 98 more
 
-Apr 14, 2021 7:54:46 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:37 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -954,7 +954,7 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 98 more
 
-Apr 14, 2021 7:54:46 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:37 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -1074,7 +1074,7 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 98 more
 
-Apr 14, 2021 7:54:48 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:39 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -1192,7 +1192,7 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 96 more
 
-Apr 14, 2021 7:54:48 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:39 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -1310,7 +1310,7 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 96 more
 
-Apr 14, 2021 7:54:48 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:39 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -1428,7 +1428,7 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 96 more
 
-Apr 14, 2021 7:54:48 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:39 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -1546,7 +1546,7 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 96 more
 
-Apr 14, 2021 7:54:48 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:39 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -1664,7 +1664,7 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 96 more
 
-Apr 14, 2021 7:54:48 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
+Apr 16, 2021 2:15:39 PM org.apache.tomcat.util.scan.StandardJarScanner processURLs
 WARNING: Failed to scan [file:/C:/Users/shado/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar] from classloader hierarchy
 java.io.IOException: java.lang.reflect.InvocationTargetException
 	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
@@ -1782,16 +1782,16 @@ Caused by: java.nio.file.NoSuchFileException: C:\Users\shado\.m2\repository\org\
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
 	... 96 more
 
-Apr 14, 2021 7:54:48 PM org.apache.jasper.servlet.TldScanner scanJars
+Apr 16, 2021 2:15:39 PM org.apache.jasper.servlet.TldScanner scanJars
 INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-Apr 14, 2021 7:54:51 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
-WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [267] milliseconds.
+Apr 16, 2021 2:15:42 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [274] milliseconds.
 ]]></system-err>
   </testcase>
-  <testcase name="testGetBloodDonationWithMilliliters" classname="logic.BloodDonationLogicTest" time="0.068">
-    <system-out><![CDATA[2021-04-14T19:54:51,282|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,282|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,283|[DEBUG] SQL - 
+  <testcase name="testGetBloodDonationWithMilliliters" classname="logic.BloodDonationLogicTest" time="0.084">
+    <system-out><![CDATA[2021-04-16T14:15:42,643|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,643|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,644|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -1803,13 +1803,13 @@ WARNING: Creation of SecureRandom instance for session ID generation using [SHA1
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,283|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,285|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,286|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,286|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,286|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,287|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,288|[DEBUG] SQL - 
+2021-04-16T14:15:42,644|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,646|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,646|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,647|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,647|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,647|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,649|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -1817,15 +1817,15 @@ WARNING: Creation of SecureRandom instance for session ID generation using [SHA1
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,289|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,289|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,289|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,289|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,290|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,290|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,298|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,298|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,315|[DEBUG] SQL - 
+2021-04-16T14:15:42,649|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,650|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:42,650|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:42,650|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:42,650|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:42,650|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:42,664|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,664|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,680|[DEBUG] SQL - 
     /* BloodDonation.findByMilliliters */ select
         blooddonat0_.donation_id as donation1_2_,
         blooddonat0_.bank_id as bank_id6_2_,
@@ -1837,15 +1837,15 @@ WARNING: Creation of SecureRandom instance for session ID generation using [SHA1
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.milliliters=?
-2021-04-14T19:54:51,316|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [100]
-2021-04-14T19:54:51,317|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [2]
-2021-04-14T19:54:51,317|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,317|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,317|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,317|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,317|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,317|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,319|[DEBUG] SQL - 
+2021-04-16T14:15:42,680|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [100]
+2021-04-16T14:15:42,681|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [2]
+2021-04-16T14:15:42,682|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,682|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:42,682|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,682|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
+2021-04-16T14:15:42,682|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,682|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,684|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -1857,15 +1857,15 @@ WARNING: Creation of SecureRandom instance for session ID generation using [SHA1
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,319|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,320|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,320|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,320|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,320|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,320|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,321|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,321|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,341|[DEBUG] SQL - 
+2021-04-16T14:15:42,684|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,685|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,685|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,685|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,686|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,686|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,686|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,686|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,715|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -1877,29 +1877,29 @@ WARNING: Creation of SecureRandom instance for session ID generation using [SHA1
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,341|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [2]
-2021-04-14T19:54:51,342|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,342|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,342|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,342|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,342|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,342|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,343|[DEBUG] SQL - 
+2021-04-16T14:15:42,715|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2021-04-16T14:15:42,717|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,717|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:42,718|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,718|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:42,718|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,718|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,719|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,343|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2021-04-16T14:15:42,719|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [2]
 ]]></system-out>
-    <system-err><![CDATA[Apr 14, 2021 7:54:51 PM dal.GenericDAL lambda$setParameters$0
+    <system-err><![CDATA[Apr 16, 2021 2:15:42 PM dal.GenericDAL lambda$setParameters$0
 INFO: setParameters: milliliters=100
 ]]></system-err>
   </testcase>
-  <testcase name="testGetBloodDonationWithBloodGroup" classname="logic.BloodDonationLogicTest" time="0.047">
-    <system-out><![CDATA[2021-04-14T19:54:51,350|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,350|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,351|[DEBUG] SQL - 
+  <testcase name="testGetBloodDonationWithBloodGroup" classname="logic.BloodDonationLogicTest" time="0.055">
+    <system-out><![CDATA[2021-04-16T14:15:42,727|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,727|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,728|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -1911,13 +1911,13 @@ INFO: setParameters: milliliters=100
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,351|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,352|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,352|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,352|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,353|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,353|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,353|[DEBUG] SQL - 
+2021-04-16T14:15:42,728|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,729|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,729|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,729|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,729|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,729|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,730|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -1925,15 +1925,15 @@ INFO: setParameters: milliliters=100
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,353|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,354|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,354|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,354|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,354|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,354|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,361|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,361|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,362|[DEBUG] SQL - 
+2021-04-16T14:15:42,731|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,731|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:42,731|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:42,731|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:42,732|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:42,732|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:42,740|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,740|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,741|[DEBUG] SQL - 
     /* BloodDonation.findByBloodGroup */ select
         blooddonat0_.donation_id as donation1_2_,
         blooddonat0_.bank_id as bank_id6_2_,
@@ -1945,15 +1945,15 @@ INFO: setParameters: milliliters=100
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.blood_group=?
-2021-04-14T19:54:51,363|[TRACE] BasicBinder - binding parameter [1] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,364|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [3]
-2021-04-14T19:54:51,364|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,364|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,364|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,364|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,364|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,364|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,365|[DEBUG] SQL - 
+2021-04-16T14:15:42,742|[TRACE] BasicBinder - binding parameter [1] as [VARCHAR] - [AB]
+2021-04-16T14:15:42,743|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [3]
+2021-04-16T14:15:42,743|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,743|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:42,743|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,743|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
+2021-04-16T14:15:42,743|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,743|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,744|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -1965,15 +1965,15 @@ INFO: setParameters: milliliters=100
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,365|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,366|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,366|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,366|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,366|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,366|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,367|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,367|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,387|[DEBUG] SQL - 
+2021-04-16T14:15:42,744|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,745|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,745|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,746|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,746|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,746|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,746|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,746|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,769|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -1985,29 +1985,29 @@ INFO: setParameters: milliliters=100
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,388|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [3]
-2021-04-14T19:54:51,389|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,389|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,389|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,389|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,389|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,389|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,390|[DEBUG] SQL - 
+2021-04-16T14:15:42,769|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [3]
+2021-04-16T14:15:42,771|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,771|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:42,771|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,771|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:42,771|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,771|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,773|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,391|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [3]
+2021-04-16T14:15:42,773|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [3]
 ]]></system-out>
-    <system-err><![CDATA[Apr 14, 2021 7:54:51 PM dal.GenericDAL lambda$setParameters$0
+    <system-err><![CDATA[Apr 16, 2021 2:15:42 PM dal.GenericDAL lambda$setParameters$0
 INFO: setParameters: bloodGroup=AB
 ]]></system-err>
   </testcase>
-  <testcase name="testCreateEntityNullAndEmptyValues" classname="logic.BloodDonationLogicTest" time="0.025">
-    <system-out><![CDATA[2021-04-14T19:54:51,398|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,398|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,399|[DEBUG] SQL - 
+  <testcase name="testCreateEntityNullAndEmptyValues" classname="logic.BloodDonationLogicTest" time="0.027">
+    <system-out><![CDATA[2021-04-16T14:15:42,782|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,782|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,783|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2019,13 +2019,13 @@ INFO: setParameters: bloodGroup=AB
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,399|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,400|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,401|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,401|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,401|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,401|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,401|[DEBUG] SQL - 
+2021-04-16T14:15:42,783|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,784|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,785|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,785|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,785|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,785|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,785|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2033,15 +2033,15 @@ INFO: setParameters: bloodGroup=AB
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,402|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,402|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,402|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,402|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,402|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,402|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,413|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,413|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,413|[DEBUG] SQL - 
+2021-04-16T14:15:42,786|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,786|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:42,786|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:42,786|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:42,786|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:42,786|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:42,797|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,798|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,798|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2053,26 +2053,26 @@ INFO: setParameters: bloodGroup=AB
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,414|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [4]
-2021-04-14T19:54:51,414|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,415|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,415|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,415|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,415|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,415|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,416|[DEBUG] SQL - 
+2021-04-16T14:15:42,799|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [4]
+2021-04-16T14:15:42,800|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,800|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:42,800|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,800|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:42,800|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,800|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,801|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,416|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [4]
+2021-04-16T14:15:42,801|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [4]
 ]]></system-out>
   </testcase>
-  <testcase name="testExtractDataAsList" classname="logic.BloodDonationLogicTest" time="0.019">
-    <system-out><![CDATA[2021-04-14T19:54:51,423|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,423|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,423|[DEBUG] SQL - 
+  <testcase name="testExtractDataAsList" classname="logic.BloodDonationLogicTest" time="0.023">
+    <system-out><![CDATA[2021-04-16T14:15:42,809|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,809|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,810|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2084,13 +2084,13 @@ INFO: setParameters: bloodGroup=AB
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,424|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,424|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,425|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,426|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,426|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,426|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,426|[DEBUG] SQL - 
+2021-04-16T14:15:42,810|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,811|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,811|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,811|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,811|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,812|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,812|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2098,15 +2098,15 @@ INFO: setParameters: bloodGroup=AB
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,426|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,426|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,426|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,426|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,426|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,426|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,433|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,433|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,434|[DEBUG] SQL - 
+2021-04-16T14:15:42,812|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,813|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:42,813|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:42,813|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:42,813|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:42,813|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:42,821|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,821|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,822|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2118,26 +2118,26 @@ INFO: setParameters: bloodGroup=AB
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,434|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [5]
-2021-04-14T19:54:51,435|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,435|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,435|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,435|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,435|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,435|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,435|[DEBUG] SQL - 
+2021-04-16T14:15:42,822|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [5]
+2021-04-16T14:15:42,823|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,823|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:42,823|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,824|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:42,824|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,824|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,824|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,436|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [5]
+2021-04-16T14:15:42,824|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [5]
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateEntityBankNotExist" classname="logic.BloodDonationLogicTest" time="0.067">
-    <system-out><![CDATA[2021-04-14T19:54:51,443|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,443|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,444|[DEBUG] SQL - 
+  <testcase name="testCreateEntityBankNotExist" classname="logic.BloodDonationLogicTest" time="0.065">
+    <system-out><![CDATA[2021-04-16T14:15:42,832|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,832|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,833|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2149,13 +2149,13 @@ INFO: setParameters: bloodGroup=AB
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,444|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,445|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,445|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,445|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,446|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,446|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,447|[DEBUG] SQL - 
+2021-04-16T14:15:42,834|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,834|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,835|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,835|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,835|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,835|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,835|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2163,15 +2163,15 @@ INFO: setParameters: bloodGroup=AB
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,447|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,447|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,447|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,447|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,447|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,447|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,456|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,456|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,457|[DEBUG] SQL - 
+2021-04-16T14:15:42,836|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,836|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:42,836|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:42,836|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:42,836|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:42,836|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:42,845|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,845|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,847|[DEBUG] SQL - 
     /* BloodBank.findByBankId */ select
         bloodbank0_.bank_id as bank_id1_1_,
         bloodbank0_.emplyee_count as emplyee_2_1_,
@@ -2183,10 +2183,10 @@ INFO: setParameters: bloodGroup=AB
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,458|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1000000]
-2021-04-14T19:54:51,460|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,460|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,478|[DEBUG] SQL - 
+2021-04-16T14:15:42,847|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1000000]
+2021-04-16T14:15:42,849|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,849|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,866|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2194,15 +2194,15 @@ INFO: setParameters: bloodGroup=AB
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,479|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [null]
-2021-04-14T19:54:51,479|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [A]
-2021-04-14T19:54:51,479|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Fri Apr 02 12:00:00 EDT 2021]
-2021-04-14T19:54:51,479|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [1111]
-2021-04-14T19:54:51,479|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,479|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,487|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,487|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,488|[DEBUG] SQL - 
+2021-04-16T14:15:42,866|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [null]
+2021-04-16T14:15:42,866|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [A]
+2021-04-16T14:15:42,866|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Fri Apr 02 12:00:00 EDT 2021]
+2021-04-16T14:15:42,867|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [1111]
+2021-04-16T14:15:42,867|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:42,867|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:42,874|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,874|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,874|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2214,23 +2214,23 @@ INFO: setParameters: bloodGroup=AB
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,488|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [7]
-2021-04-14T19:54:51,489|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,489|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [A]
-2021-04-14T19:54:51,490|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [2021-04-02 12:00:00.0]
-2021-04-14T19:54:51,490|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [1111]
-2021-04-14T19:54:51,490|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,490|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,490|[DEBUG] SQL - 
+2021-04-16T14:15:42,875|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [7]
+2021-04-16T14:15:42,875|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,876|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [A]
+2021-04-16T14:15:42,876|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [2021-04-02 12:00:00.0]
+2021-04-16T14:15:42,876|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [1111]
+2021-04-16T14:15:42,876|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,876|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,876|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,490|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [7]
-2021-04-14T19:54:51,496|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,496|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,497|[DEBUG] SQL - 
+2021-04-16T14:15:42,876|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [7]
+2021-04-16T14:15:42,885|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,885|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,885|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2242,24 +2242,24 @@ INFO: setParameters: bloodGroup=AB
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,497|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [6]
-2021-04-14T19:54:51,500|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,500|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,500|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,500|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,500|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,500|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,501|[DEBUG] SQL - 
+2021-04-16T14:15:42,886|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [6]
+2021-04-16T14:15:42,888|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,888|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:42,888|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,888|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:42,888|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,888|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,889|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,501|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [6]
+2021-04-16T14:15:42,889|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [6]
 ]]></system-out>
-    <system-err><![CDATA[Apr 14, 2021 7:54:51 PM dal.GenericDAL lambda$setParameters$0
+    <system-err><![CDATA[Apr 16, 2021 2:15:42 PM dal.GenericDAL lambda$setParameters$0
 INFO: setParameters: bankId=1000000
-Apr 14, 2021 7:54:51 PM dal.GenericDAL findResult
+Apr 16, 2021 2:15:42 PM dal.GenericDAL findResult
 WARNING: No result found for named query: BloodBank.findByBankId
 javax.persistence.NoResultException: No entity found for query
 	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1643)
@@ -2340,10 +2340,10 @@ javax.persistence.NoResultException: No entity found for query
 
 ]]></system-err>
   </testcase>
-  <testcase name="testGetBloodDonationsWithBloodBank" classname="logic.BloodDonationLogicTest" time="0.044">
-    <system-out><![CDATA[2021-04-14T19:54:51,509|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,509|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,510|[DEBUG] SQL - 
+  <testcase name="testGetBloodDonationsWithBloodBank" classname="logic.BloodDonationLogicTest" time="0.043">
+    <system-out><![CDATA[2021-04-16T14:15:42,897|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,897|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,898|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2355,13 +2355,13 @@ javax.persistence.NoResultException: No entity found for query
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,511|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,512|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,512|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,512|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,512|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,512|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,512|[DEBUG] SQL - 
+2021-04-16T14:15:42,898|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,899|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,899|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,899|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,899|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,900|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,900|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2369,15 +2369,15 @@ javax.persistence.NoResultException: No entity found for query
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,513|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,513|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,513|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,513|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,513|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,513|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,520|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,520|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,521|[DEBUG] SQL - 
+2021-04-16T14:15:42,900|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,900|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:42,900|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:42,901|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:42,901|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:42,901|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:42,909|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,909|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,910|[DEBUG] SQL - 
     /* BloodDonation.findByBloodBank */ select
         blooddonat0_.donation_id as donation1_2_,
         blooddonat0_.bank_id as bank_id6_2_,
@@ -2389,15 +2389,15 @@ javax.persistence.NoResultException: No entity found for query
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.bank_id=?
-2021-04-14T19:54:51,522|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,522|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [8]
-2021-04-14T19:54:51,522|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,522|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,523|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,523|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,523|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,523|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,523|[DEBUG] SQL - 
+2021-04-16T14:15:42,910|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,911|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [8]
+2021-04-16T14:15:42,911|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,911|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:42,911|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,911|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
+2021-04-16T14:15:42,911|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,911|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,912|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2409,15 +2409,15 @@ javax.persistence.NoResultException: No entity found for query
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,523|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,524|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,524|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,524|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,524|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,524|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,525|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,525|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,541|[DEBUG] SQL - 
+2021-04-16T14:15:42,912|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,913|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,913|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,913|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,913|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,913|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,913|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,913|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,929|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2429,29 +2429,29 @@ javax.persistence.NoResultException: No entity found for query
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,541|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [8]
-2021-04-14T19:54:51,542|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,542|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,543|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,543|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,543|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,543|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,543|[DEBUG] SQL - 
+2021-04-16T14:15:42,929|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [8]
+2021-04-16T14:15:42,930|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,930|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:42,930|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,931|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:42,931|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,931|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,931|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,544|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [8]
+2021-04-16T14:15:42,932|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [8]
 ]]></system-out>
-    <system-err><![CDATA[Apr 14, 2021 7:54:51 PM dal.GenericDAL lambda$setParameters$0
+    <system-err><![CDATA[Apr 16, 2021 2:15:42 PM dal.GenericDAL lambda$setParameters$0
 INFO: setParameters: bloodBankId=1
 ]]></system-err>
   </testcase>
-  <testcase name="testCreateEntityAndAdd" classname="logic.BloodDonationLogicTest" time="0.079">
-    <system-out><![CDATA[2021-04-14T19:54:51,554|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,554|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,554|[DEBUG] SQL - 
+  <testcase name="testCreateEntityAndAdd" classname="logic.BloodDonationLogicTest" time="0.084">
+    <system-out><![CDATA[2021-04-16T14:15:42,940|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,940|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,941|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2463,13 +2463,13 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,555|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,556|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,556|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,556|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,556|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,556|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,557|[DEBUG] SQL - 
+2021-04-16T14:15:42,941|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,943|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,943|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,943|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,943|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,943|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,944|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2477,15 +2477,15 @@ INFO: setParameters: bloodBankId=1
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,557|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,557|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,557|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,558|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,558|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,558|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,565|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,565|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,565|[DEBUG] SQL - 
+2021-04-16T14:15:42,944|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,944|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:42,944|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:42,944|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:42,944|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:42,944|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:42,952|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,952|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,953|[DEBUG] SQL - 
     /* BloodBank.findByBankId */ select
         bloodbank0_.bank_id as bank_id1_1_,
         bloodbank0_.emplyee_count as emplyee_2_1_,
@@ -2497,16 +2497,16 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,566|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,566|[TRACE] BasicExtractor - extracted value ([bank_id1_1_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,567|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,567|[TRACE] BasicExtractor - extracted value ([establis3_1_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,567|[TRACE] BasicExtractor - extracted value ([name4_1_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,567|[TRACE] BasicExtractor - extracted value ([owner6_1_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,567|[TRACE] BasicExtractor - extracted value ([privatel5_1_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,567|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,567|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,583|[DEBUG] SQL - 
+2021-04-16T14:15:42,953|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,954|[TRACE] BasicExtractor - extracted value ([bank_id1_1_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,954|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,954|[TRACE] BasicExtractor - extracted value ([establis3_1_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,955|[TRACE] BasicExtractor - extracted value ([name4_1_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,955|[TRACE] BasicExtractor - extracted value ([owner6_1_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,955|[TRACE] BasicExtractor - extracted value ([privatel5_1_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,955|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,955|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,973|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2514,15 +2514,15 @@ INFO: setParameters: bloodBankId=1
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,583|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,583|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [A]
-2021-04-14T19:54:51,583|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Fri Apr 02 12:00:00 EDT 2021]
-2021-04-14T19:54:51,584|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [1111]
-2021-04-14T19:54:51,584|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,584|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,591|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,591|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,592|[DEBUG] SQL - 
+2021-04-16T14:15:42,973|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,973|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [A]
+2021-04-16T14:15:42,974|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Fri Apr 02 12:00:00 EDT 2021]
+2021-04-16T14:15:42,974|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [1111]
+2021-04-16T14:15:42,974|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:42,974|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:42,981|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,981|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:42,982|[DEBUG] SQL - 
     /* BloodDonation.findByBloodBank */ select
         blooddonat0_.donation_id as donation1_2_,
         blooddonat0_.bank_id as bank_id6_2_,
@@ -2534,22 +2534,22 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.bank_id=?
-2021-04-14T19:54:51,593|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,594|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [9]
-2021-04-14T19:54:51,594|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,594|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,594|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,594|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,594|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,594|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,594|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [10]
-2021-04-14T19:54:51,594|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,594|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [A]
-2021-04-14T19:54:51,594|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [2021-04-02 12:00:00.0]
-2021-04-14T19:54:51,594|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [1111]
-2021-04-14T19:54:51,595|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,595|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,595|[DEBUG] SQL - 
+2021-04-16T14:15:42,982|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,983|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [9]
+2021-04-16T14:15:42,983|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,983|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:42,984|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,984|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
+2021-04-16T14:15:42,984|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,984|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,984|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [10]
+2021-04-16T14:15:42,984|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
+2021-04-16T14:15:42,984|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [A]
+2021-04-16T14:15:42,984|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [2021-04-02 12:00:00.0]
+2021-04-16T14:15:42,984|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [1111]
+2021-04-16T14:15:42,984|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
+2021-04-16T14:15:42,985|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:42,985|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2561,15 +2561,15 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,595|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,597|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,597|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,597|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,597|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,597|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,598|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,598|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,614|[DEBUG] SQL - 
+2021-04-16T14:15:42,985|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:42,986|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:42,987|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:42,987|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:42,987|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:42,987|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:42,987|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:42,987|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,004|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2581,23 +2581,23 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,614|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [10]
-2021-04-14T19:54:51,615|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,615|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [A]
-2021-04-14T19:54:51,615|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [2021-04-02 12:00:00.0]
-2021-04-14T19:54:51,615|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [1111]
-2021-04-14T19:54:51,615|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,615|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,616|[DEBUG] SQL - 
+2021-04-16T14:15:43,004|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [10]
+2021-04-16T14:15:43,005|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,005|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [A]
+2021-04-16T14:15:43,005|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [2021-04-02 12:00:00.0]
+2021-04-16T14:15:43,005|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [1111]
+2021-04-16T14:15:43,005|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,005|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,006|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,616|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [10]
-2021-04-14T19:54:51,623|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,623|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,623|[DEBUG] SQL - 
+2021-04-16T14:15:43,006|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [10]
+2021-04-16T14:15:43,013|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,013|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,014|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2609,31 +2609,31 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,624|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [9]
-2021-04-14T19:54:51,625|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,625|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,625|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,625|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,625|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,625|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,625|[DEBUG] SQL - 
+2021-04-16T14:15:43,014|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [9]
+2021-04-16T14:15:43,016|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,016|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,016|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,016|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,016|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,016|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,017|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,626|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [9]
+2021-04-16T14:15:43,017|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [9]
 ]]></system-out>
-    <system-err><![CDATA[Apr 14, 2021 7:54:51 PM dal.GenericDAL lambda$setParameters$0
+    <system-err><![CDATA[Apr 16, 2021 2:15:42 PM dal.GenericDAL lambda$setParameters$0
 INFO: setParameters: bankId=1
-Apr 14, 2021 7:54:51 PM dal.GenericDAL lambda$setParameters$0
+Apr 16, 2021 2:15:42 PM dal.GenericDAL lambda$setParameters$0
 INFO: setParameters: bloodBankId=1
 ]]></system-err>
   </testcase>
-  <testcase name="testGetAll" classname="logic.BloodDonationLogicTest" time="0.079">
-    <system-out><![CDATA[2021-04-14T19:54:51,633|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,633|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,633|[DEBUG] SQL - 
+  <testcase name="testGetAll" classname="logic.BloodDonationLogicTest" time="0.084">
+    <system-out><![CDATA[2021-04-16T14:15:43,025|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,025|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,025|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2645,13 +2645,13 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,633|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,634|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,634|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,634|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,635|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,635|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,635|[DEBUG] SQL - 
+2021-04-16T14:15:43,026|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,027|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:43,027|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,027|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:43,027|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:43,027|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:43,027|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2659,15 +2659,15 @@ INFO: setParameters: bloodBankId=1
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,635|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,635|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,636|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,636|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,636|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,636|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,642|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,642|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,643|[DEBUG] SQL - 
+2021-04-16T14:15:43,028|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,028|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:43,028|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:43,028|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:43,028|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:43,028|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:43,036|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,036|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,036|[DEBUG] SQL - 
     /* BloodDonation.findAll */ select
         blooddonat0_.donation_id as donation1_2_,
         blooddonat0_.bank_id as bank_id6_2_,
@@ -2677,16 +2677,16 @@ INFO: setParameters: bloodBankId=1
         blooddonat0_.rhd as rhd5_2_ 
     from
         simplebloodbank.blood_donation blooddonat0_
-2021-04-14T19:54:51,644|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [11]
-2021-04-14T19:54:51,644|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,644|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,644|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,644|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,644|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,644|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,645|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,645|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,659|[DEBUG] SQL - 
+2021-04-16T14:15:43,037|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [11]
+2021-04-16T14:15:43,037|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,037|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,037|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,038|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,038|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,038|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,038|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,038|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,053|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2698,23 +2698,23 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,659|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [11]
-2021-04-14T19:54:51,660|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,660|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,660|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,660|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,660|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,661|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,661|[DEBUG] SQL - 
+2021-04-16T14:15:43,053|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [11]
+2021-04-16T14:15:43,054|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,054|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,054|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,054|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,054|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,054|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,055|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,661|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [11]
-2021-04-14T19:54:51,667|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,667|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,668|[DEBUG] SQL - 
+2021-04-16T14:15:43,055|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [11]
+2021-04-16T14:15:43,063|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,063|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,063|[DEBUG] SQL - 
     /* BloodDonation.findAll */ select
         blooddonat0_.donation_id as donation1_2_,
         blooddonat0_.bank_id as bank_id6_2_,
@@ -2724,9 +2724,9 @@ INFO: setParameters: bloodBankId=1
         blooddonat0_.rhd as rhd5_2_ 
     from
         simplebloodbank.blood_donation blooddonat0_
-2021-04-14T19:54:51,669|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,669|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,700|[DEBUG] SQL - 
+2021-04-16T14:15:43,064|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,064|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,095|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2738,8 +2738,8 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,700|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [11]
-2021-04-14T19:54:51,701|[DEBUG] SQL - 
+2021-04-16T14:15:43,095|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [11]
+2021-04-16T14:15:43,097|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2747,25 +2747,25 @@ INFO: setParameters: bloodBankId=1
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,702|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,702|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,702|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,702|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,702|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,702|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,704|[DEBUG] SQL - 
+2021-04-16T14:15:43,098|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,098|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:43,098|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:43,098|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:43,098|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:43,098|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:43,100|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,704|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [12]
+2021-04-16T14:15:43,100|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [12]
 ]]></system-out>
   </testcase>
-  <testcase name="testGetBloodDonationsWithRhd" classname="logic.BloodDonationLogicTest" time="0.041">
-    <system-out><![CDATA[2021-04-14T19:54:51,712|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,712|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,713|[DEBUG] SQL - 
+  <testcase name="testGetBloodDonationsWithRhd" classname="logic.BloodDonationLogicTest" time="0.044">
+    <system-out><![CDATA[2021-04-16T14:15:43,109|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,109|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,110|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2777,13 +2777,13 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,713|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,714|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,714|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,714|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,714|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,714|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,715|[DEBUG] SQL - 
+2021-04-16T14:15:43,110|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,111|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:43,111|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,111|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:43,111|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:43,111|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:43,112|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2791,15 +2791,15 @@ INFO: setParameters: bloodBankId=1
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,715|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,715|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,715|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,716|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,716|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,716|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,723|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,724|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,724|[DEBUG] SQL - 
+2021-04-16T14:15:43,112|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,112|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:43,112|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:43,113|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:43,113|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:43,113|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:43,121|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,121|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,122|[DEBUG] SQL - 
     /* BloodDonation.findByRhd */ select
         blooddonat0_.donation_id as donation1_2_,
         blooddonat0_.bank_id as bank_id6_2_,
@@ -2811,16 +2811,16 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.rhd=?
-2021-04-14T19:54:51,725|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,725|[TRACE] BasicBinder - binding parameter [1] as [VARCHAR] - [-]
-2021-04-14T19:54:51,726|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [13]
-2021-04-14T19:54:51,726|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,726|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,726|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,726|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,726|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,726|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,726|[DEBUG] SQL - 
+2021-04-16T14:15:43,122|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:43,122|[TRACE] BasicBinder - binding parameter [1] as [VARCHAR] - [-]
+2021-04-16T14:15:43,123|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [13]
+2021-04-16T14:15:43,123|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,123|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,123|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,123|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,123|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,124|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,124|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2832,15 +2832,15 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,727|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,728|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,728|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,728|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,728|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,728|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,728|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,728|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,743|[DEBUG] SQL - 
+2021-04-16T14:15:43,124|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,125|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:43,125|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,125|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:43,125|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:43,125|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:43,126|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,126|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,141|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2852,29 +2852,29 @@ INFO: setParameters: bloodBankId=1
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,743|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [13]
-2021-04-14T19:54:51,744|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,744|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,744|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,745|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,745|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,745|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,745|[DEBUG] SQL - 
+2021-04-16T14:15:43,141|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [13]
+2021-04-16T14:15:43,142|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,143|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,143|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,143|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,143|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,143|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,144|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,745|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [13]
+2021-04-16T14:15:43,144|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [13]
 ]]></system-out>
-    <system-err><![CDATA[Apr 14, 2021 7:54:51 PM dal.GenericDAL lambda$setParameters$0
+    <system-err><![CDATA[Apr 16, 2021 2:15:43 PM dal.GenericDAL lambda$setParameters$0
 INFO: setParameters: rhd=Negative
 ]]></system-err>
   </testcase>
-  <testcase name="testGetColumnCodes" classname="logic.BloodDonationLogicTest" time="0.02">
-    <system-out><![CDATA[2021-04-14T19:54:51,753|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,753|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,754|[DEBUG] SQL - 
+  <testcase name="testGetColumnCodes" classname="logic.BloodDonationLogicTest" time="0.026">
+    <system-out><![CDATA[2021-04-16T14:15:43,153|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,153|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,153|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2886,13 +2886,13 @@ INFO: setParameters: rhd=Negative
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,754|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,755|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,755|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,755|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,755|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,755|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,756|[DEBUG] SQL - 
+2021-04-16T14:15:43,154|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,155|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:43,155|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,155|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:43,155|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:43,155|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:43,155|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2900,15 +2900,15 @@ INFO: setParameters: rhd=Negative
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,756|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,756|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,756|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,756|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,756|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,756|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,763|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,763|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,764|[DEBUG] SQL - 
+2021-04-16T14:15:43,156|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,156|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:43,156|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:43,156|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:43,156|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:43,156|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:43,166|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,166|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,167|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2920,26 +2920,26 @@ INFO: setParameters: rhd=Negative
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,764|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [14]
-2021-04-14T19:54:51,765|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,765|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,765|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,765|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,765|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,765|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,766|[DEBUG] SQL - 
+2021-04-16T14:15:43,167|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [14]
+2021-04-16T14:15:43,168|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,168|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,168|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,168|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,169|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,169|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,169|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,766|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [14]
+2021-04-16T14:15:43,170|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [14]
 ]]></system-out>
   </testcase>
-  <testcase name="testGetColumnNames" classname="logic.BloodDonationLogicTest" time="0.021">
-    <system-out><![CDATA[2021-04-14T19:54:51,773|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,773|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,774|[DEBUG] SQL - 
+  <testcase name="testGetColumnNames" classname="logic.BloodDonationLogicTest" time="0.022">
+    <system-out><![CDATA[2021-04-16T14:15:43,179|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,179|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,180|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -2951,13 +2951,13 @@ INFO: setParameters: rhd=Negative
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,774|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,775|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,775|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,775|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,775|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,775|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,776|[DEBUG] SQL - 
+2021-04-16T14:15:43,180|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,181|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:43,181|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,181|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:43,181|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:43,182|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:43,182|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -2965,15 +2965,15 @@ INFO: setParameters: rhd=Negative
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,777|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,777|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,777|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,777|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,777|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,777|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,783|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,784|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,784|[DEBUG] SQL - 
+2021-04-16T14:15:43,183|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,183|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:43,183|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:43,183|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:43,183|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:43,183|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:43,190|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,191|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,191|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -2985,26 +2985,26 @@ INFO: setParameters: rhd=Negative
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,784|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [15]
-2021-04-14T19:54:51,785|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,785|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,785|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,785|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,785|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,785|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,787|[DEBUG] SQL - 
+2021-04-16T14:15:43,191|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [15]
+2021-04-16T14:15:43,192|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,192|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,192|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,192|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,192|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,192|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,193|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,787|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [15]
+2021-04-16T14:15:43,193|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [15]
 ]]></system-out>
   </testcase>
-  <testcase name="testGetBloodDonationWithCreated" classname="logic.BloodDonationLogicTest" time="0.044">
-    <system-out><![CDATA[2021-04-14T19:54:51,795|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,795|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,795|[DEBUG] SQL - 
+  <testcase name="testGetBloodDonationWithCreated" classname="logic.BloodDonationLogicTest" time="0.042">
+    <system-out><![CDATA[2021-04-16T14:15:43,201|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,201|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,201|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -3016,13 +3016,13 @@ INFO: setParameters: rhd=Negative
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,796|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,796|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,797|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,797|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,797|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,797|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,797|[DEBUG] SQL - 
+2021-04-16T14:15:43,201|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,202|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:43,202|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,202|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:43,202|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:43,202|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:43,203|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -3030,15 +3030,15 @@ INFO: setParameters: rhd=Negative
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,798|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,798|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,798|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,798|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,798|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,798|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,805|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,805|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,806|[DEBUG] SQL - 
+2021-04-16T14:15:43,203|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,203|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:43,204|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:43,204|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:43,204|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:43,204|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:43,212|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,212|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,213|[DEBUG] SQL - 
     /* BloodDonation.findByCreated */ select
         blooddonat0_.donation_id as donation1_2_,
         blooddonat0_.bank_id as bank_id6_2_,
@@ -3050,15 +3050,15 @@ INFO: setParameters: rhd=Negative
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.created=?
-2021-04-14T19:54:51,806|[TRACE] BasicBinder - binding parameter [1] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,807|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [16]
-2021-04-14T19:54:51,807|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,807|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,807|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,808|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,808|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,808|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,808|[DEBUG] SQL - 
+2021-04-16T14:15:43,213|[TRACE] BasicBinder - binding parameter [1] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:43,214|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [16]
+2021-04-16T14:15:43,214|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,214|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,214|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,214|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,214|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,214|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,215|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -3070,15 +3070,15 @@ INFO: setParameters: rhd=Negative
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,808|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,810|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,810|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,810|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,810|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,810|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,810|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,810|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,829|[DEBUG] SQL - 
+2021-04-16T14:15:43,215|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,216|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:43,216|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,216|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:43,216|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:43,216|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:43,216|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,216|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,231|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -3090,29 +3090,29 @@ INFO: setParameters: rhd=Negative
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,829|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [16]
-2021-04-14T19:54:51,830|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,831|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,831|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,831|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,831|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,831|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,831|[DEBUG] SQL - 
+2021-04-16T14:15:43,232|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [16]
+2021-04-16T14:15:43,233|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,233|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,233|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,233|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,233|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,233|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,234|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,832|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [16]
+2021-04-16T14:15:43,234|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [16]
 ]]></system-out>
-    <system-err><![CDATA[Apr 14, 2021 7:54:51 PM dal.GenericDAL lambda$setParameters$0
+    <system-err><![CDATA[Apr 16, 2021 2:15:43 PM dal.GenericDAL lambda$setParameters$0
 INFO: setParameters: created=Sat Nov 11 11:11:11 EST 1111
 ]]></system-err>
   </testcase>
-  <testcase name="testGetWithId" classname="logic.BloodDonationLogicTest" time="0.036">
-    <system-out><![CDATA[2021-04-14T19:54:51,839|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,839|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,839|[DEBUG] SQL - 
+  <testcase name="testGetWithId" classname="logic.BloodDonationLogicTest" time="0.043">
+    <system-out><![CDATA[2021-04-16T14:15:43,242|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,242|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,243|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -3124,13 +3124,13 @@ INFO: setParameters: created=Sat Nov 11 11:11:11 EST 1111
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,840|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,840|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,841|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,841|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,841|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,841|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,841|[DEBUG] SQL - 
+2021-04-16T14:15:43,243|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,244|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:43,244|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,244|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:43,244|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:43,244|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:43,245|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -3138,15 +3138,15 @@ INFO: setParameters: created=Sat Nov 11 11:11:11 EST 1111
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,841|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,841|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,841|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,842|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,842|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,842|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,848|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,848|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,849|[DEBUG] SQL - 
+2021-04-16T14:15:43,245|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,245|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:43,245|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:43,245|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:43,245|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:43,245|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:43,253|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,253|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,254|[DEBUG] SQL - 
     /* BloodDonation.findByDonationId */ select
         blooddonat0_.donation_id as donation1_2_,
         blooddonat0_.bank_id as bank_id6_2_,
@@ -3158,15 +3158,15 @@ INFO: setParameters: created=Sat Nov 11 11:11:11 EST 1111
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,849|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [17]
-2021-04-14T19:54:51,851|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [17]
-2021-04-14T19:54:51,851|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,851|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,851|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,851|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,851|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,851|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,851|[DEBUG] SQL - 
+2021-04-16T14:15:43,255|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [17]
+2021-04-16T14:15:43,255|[TRACE] BasicExtractor - extracted value ([donation1_2_] : [INTEGER]) - [17]
+2021-04-16T14:15:43,255|[TRACE] BasicExtractor - extracted value ([bank_id6_2_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,255|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,256|[TRACE] BasicExtractor - extracted value ([created3_2_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,256|[TRACE] BasicExtractor - extracted value ([millilit4_2_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,256|[TRACE] BasicExtractor - extracted value ([rhd5_2_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,256|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,256|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -3178,15 +3178,15 @@ INFO: setParameters: created=Sat Nov 11 11:11:11 EST 1111
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,852|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,852|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,852|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,852|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,852|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,852|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,852|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,852|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,867|[DEBUG] SQL - 
+2021-04-16T14:15:43,256|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,257|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:43,257|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,257|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:43,257|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:43,257|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:43,258|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,258|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,275|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -3198,29 +3198,29 @@ INFO: setParameters: created=Sat Nov 11 11:11:11 EST 1111
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,868|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [17]
-2021-04-14T19:54:51,868|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,868|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,868|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,868|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,868|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,868|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,869|[DEBUG] SQL - 
+2021-04-16T14:15:43,275|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [17]
+2021-04-16T14:15:43,276|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,276|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,276|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,276|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,276|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,276|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,277|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,869|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [17]
+2021-04-16T14:15:43,277|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [17]
 ]]></system-out>
-    <system-err><![CDATA[Apr 14, 2021 7:54:51 PM dal.GenericDAL lambda$setParameters$0
+    <system-err><![CDATA[Apr 16, 2021 2:15:43 PM dal.GenericDAL lambda$setParameters$0
 INFO: setParameters: donationId=17
 ]]></system-err>
   </testcase>
-  <testcase name="testCreateEntityWithEmptyBankID" classname="logic.BloodDonationLogicTest" time="0.019">
-    <system-out><![CDATA[2021-04-14T19:54:51,875|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,875|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,876|[DEBUG] SQL - 
+  <testcase name="testCreateEntityWithEmptyBankID" classname="logic.BloodDonationLogicTest" time="0.022">
+    <system-out><![CDATA[2021-04-16T14:15:43,285|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,285|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,286|[DEBUG] SQL - 
     select
         bloodbank0_.bank_id as bank_id1_1_0_,
         bloodbank0_.emplyee_count as emplyee_2_1_0_,
@@ -3232,13 +3232,13 @@ INFO: setParameters: donationId=17
         simplebloodbank.blood_bank bloodbank0_ 
     where
         bloodbank0_.bank_id=?
-2021-04-14T19:54:51,876|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,877|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
-2021-04-14T19:54:51,877|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,877|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
-2021-04-14T19:54:51,877|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
-2021-04-14T19:54:51,877|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
-2021-04-14T19:54:51,878|[DEBUG] SQL - 
+2021-04-16T14:15:43,287|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,288|[TRACE] BasicExtractor - extracted value ([emplyee_2_1_0_] : [INTEGER]) - [111]
+2021-04-16T14:15:43,288|[TRACE] BasicExtractor - extracted value ([establis3_1_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,288|[TRACE] BasicExtractor - extracted value ([name4_1_0_] : [VARCHAR]) - [JUNIT]
+2021-04-16T14:15:43,288|[TRACE] BasicExtractor - extracted value ([owner6_1_0_] : [INTEGER]) - [null]
+2021-04-16T14:15:43,288|[TRACE] BasicExtractor - extracted value ([privatel5_1_0_] : [BOOLEAN]) - [true]
+2021-04-16T14:15:43,288|[DEBUG] SQL - 
     /* insert entity.BloodDonation
         */ insert 
         into
@@ -3246,15 +3246,15 @@ INFO: setParameters: donationId=17
             (bank_id, blood_group, created, milliliters, rhd) 
         values
             (?, ?, ?, ?, ?)
-2021-04-14T19:54:51,878|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
-2021-04-14T19:54:51,878|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
-2021-04-14T19:54:51,878|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
-2021-04-14T19:54:51,878|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
-2021-04-14T19:54:51,878|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
-2021-04-14T19:54:51,878|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
-2021-04-14T19:54:51,885|[DEBUG] EMFactory - getting EntityManagerFactory
-2021-04-14T19:54:51,885|[DEBUG] EMFactory - initializeing EntityManagerFactory
-2021-04-14T19:54:51,885|[DEBUG] SQL - 
+2021-04-16T14:15:43,289|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2021-04-16T14:15:43,289|[TRACE] BasicBinder - binding parameter [2] as [VARCHAR] - [AB]
+2021-04-16T14:15:43,289|[TRACE] BasicBinder - binding parameter [3] as [TIMESTAMP] - [Sat Nov 11 11:11:11 EST 1111]
+2021-04-16T14:15:43,289|[TRACE] BasicBinder - binding parameter [4] as [INTEGER] - [100]
+2021-04-16T14:15:43,289|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on binding : Negative -> -
+2021-04-16T14:15:43,289|[TRACE] BasicBinder - binding parameter [5] as [VARCHAR] - [-]
+2021-04-16T14:15:43,297|[DEBUG] EMFactory - getting EntityManagerFactory
+2021-04-16T14:15:43,297|[DEBUG] EMFactory - initializeing EntityManagerFactory
+2021-04-16T14:15:43,297|[DEBUG] SQL - 
     /* load entity.BloodDonation */ select
         blooddonat0_.donation_id as donation1_2_0_,
         blooddonat0_.bank_id as bank_id6_2_0_,
@@ -3266,20 +3266,20 @@ INFO: setParameters: donationId=17
         simplebloodbank.blood_donation blooddonat0_ 
     where
         blooddonat0_.donation_id=?
-2021-04-14T19:54:51,886|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [18]
-2021-04-14T19:54:51,886|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
-2021-04-14T19:54:51,886|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
-2021-04-14T19:54:51,887|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
-2021-04-14T19:54:51,887|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
-2021-04-14T19:54:51,887|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
-2021-04-14T19:54:51,887|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
-2021-04-14T19:54:51,887|[DEBUG] SQL - 
+2021-04-16T14:15:43,298|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [18]
+2021-04-16T14:15:43,298|[TRACE] BasicExtractor - extracted value ([bank_id6_2_0_] : [INTEGER]) - [1]
+2021-04-16T14:15:43,299|[TRACE] BasicExtractor - extracted value ([blood_gr2_2_0_] : [VARCHAR]) - [AB]
+2021-04-16T14:15:43,299|[TRACE] BasicExtractor - extracted value ([created3_2_0_] : [TIMESTAMP]) - [1111-11-11 11:11:11.0]
+2021-04-16T14:15:43,299|[TRACE] BasicExtractor - extracted value ([millilit4_2_0_] : [INTEGER]) - [100]
+2021-04-16T14:15:43,299|[TRACE] BasicExtractor - extracted value ([rhd5_2_0_] : [VARCHAR]) - [-]
+2021-04-16T14:15:43,299|[DEBUG] AttributeConverterSqlTypeDescriptorAdapter - Converted value on extraction: - -> Negative
+2021-04-16T14:15:43,299|[DEBUG] SQL - 
     /* delete entity.BloodDonation */ delete 
         from
             simplebloodbank.blood_donation 
         where
             donation_id=?
-2021-04-14T19:54:51,887|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [18]
+2021-04-16T14:15:43,300|[TRACE] BasicBinder - binding parameter [1] as [INTEGER] - [18]
 ]]></system-out>
   </testcase>
 </testsuite>

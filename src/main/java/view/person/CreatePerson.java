@@ -41,32 +41,47 @@ public class CreatePerson extends HttpServlet{
             out.println( "<html>" );
             out.println( "<head>" );
             out.println( "<title>Create Person</title>" );
+            out.println("<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" "
+                    + "integrity=\"sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6\" crossorigin=\"anonymous\">");
             out.println( "</head>" );
             out.println( "<body>" );
             out.println( "<div style=\"text-align: center;\">" );
             out.println( "<div style=\"display: inline-block; text-align: left;\">" );
             out.println( "<form method=\"post\">" );
-            out.println( "First Name:<br>" );
+            out.println( "<div class=\"row\" style=\"text-align: center; margin-top: 30px; margin-bottom:20px;\"><h5><b>Create Person</b></h5></div>" );
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">First Name:</label>");
             //instead of typing the name of column manualy use the static vraiable in logic
             //use the same name as column id of the table. will use this name to get date
             //from parameter map.
-            out.printf( "<input type=\"text\" name=\"%s\" value=\"\"><br>", PersonLogic.FIRST_NAME );
-            out.println( "<br>" );
-            out.println( "Last Name:<br>" );
-            out.printf( "<input type=\"text\" name=\"%s\" value=\"\"><br>", PersonLogic.LAST_NAME );
-            out.println( "<br>" );
-            out.println( "Phone:<br>" );
-            out.printf( "<input type=\"text\" name=\"%s\" value=\"\"><br>", PersonLogic.PHONE );
-            out.println( "<br>" );
-            out.println( "Address:<br>" );
-            out.printf( "<input type=\"text\" name=\"%s\" value=\"\"><br>", PersonLogic.ADDRESS );
-            out.println( "<br>" );
-            out.println( "Birth:<br>" );
-            out.printf( "<input type=\"datetime-local\" name=\"%s\" value=\"\" step=\"1\"><br>", PersonLogic.BIRTH );
-            out.println( "<br>" );
+            out.printf( "<input class=\"form-control\" type=\"text\" name=\"%s\" value=\"\">", PersonLogic.FIRST_NAME );
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Last Name:</label>");
+            out.printf( "<input class=\"form-control\" type=\"text\" name=\"%s\" value=\"\">", PersonLogic.LAST_NAME );
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Phone:</label>");
+            out.printf( "<input class=\"form-control\" type=\"text\" name=\"%s\" value=\"\">", PersonLogic.PHONE );
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Address:</label>");
+            out.printf( "<input class=\"form-control\" type=\"text\" name=\"%s\" value=\"\">", PersonLogic.ADDRESS );
+            out.println("</div>");
+            
+            out.println("<div class=\"mb-3\">");
+            out.println("<label class=\"form-label\">Birth:</label>");
+            out.printf( "<input class=\"form-control\" type=\"datetime-local\" name=\"%s\" value=\"\" step=\"1\">", PersonLogic.BIRTH );
+            out.println("</div>");
 
-            out.println( "<input type=\"submit\" name=\"view\" value=\"Add and View\">" );
-            out.println( "<input type=\"submit\" name=\"add\" value=\"Add\">" );
+            out.println("<div class=\"mb-3\" style=\"margin-top: 30px; text-align: center;\">");
+            out.println( "<input type=\"submit\" class=\"btn btn-primary\" name=\"view\" value=\"Add and View\">" );
+            out.println( "<input type=\"submit\" class=\"btn btn-primary\" name=\"add\" value=\"Add\">" );
+            out.println("</div>");
             out.println( "</form>" );
             if( errorMessage != null && !errorMessage.isEmpty() ){
                 out.println( "<p color=red>" );
@@ -77,12 +92,14 @@ public class CreatePerson extends HttpServlet{
             }
             // clear the error message
             errorMessage = "";
-            out.println( "<pre>" );
+            out.println( "<pre style=\"text-align: center;\">" );
             out.println( "Submitted keys and values:" );
             out.println( toStringMap( request.getParameterMap() ) );
             out.println( "</pre>" );
             out.println( "</div>" );
             out.println( "</div>" );
+            out.println("<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js\" "
+                    + "integrity=\"sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf\" crossorigin=\"anonymous\"></script>");
             out.println( "</body>" );
             out.println( "</html>" );
         }
